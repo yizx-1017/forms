@@ -1,35 +1,39 @@
-Distributing data time: 4.7925803661346436
-partitions: 0 8 0 0
-partitions: 8 16 0 0
-partitions: 16 24 0 0
-partitions: 23 32 0 0
-partitions: 31 40 0 0
-partitions: 40 48 0 0
-partitions: 48 56 0 0
-partitions: 56 64 0 0
-partitions: 64 72 0 0
-partitions: 72 80 0 0
-partitions: 80 88 0 0
-partitions: 88 96 0 0
-partitions: 96 104 0 0
-partitions: 104 112 0 0
-partitions: 112 120 0 0
-partitions: 120 127 0 0
-Execution time: 0.7837686538696289
-Get table content time: 0.1866316795349121
-Get table content time: 0.4685227870941162
-Get table content time: 0.45174646377563477
-Get table content time: 0.499326229095459
-Get table content time: 0.4888474941253662
-Get table content time: 0.41279053688049316
-Get table content time: 0.5124025344848633
-Get table content time: 0.6214325428009033
-Get table content time: 0.44616007804870605
-Get table content time: 0.6283798217773438
-Get table content time: 0.5590071678161621
-Get table content time: 0.5832178592681885
-Get table content time: 0.5928874015808105
-Get table content time: 0.54091477394104
-Get table content time: 0.5787844657897949
-Get table content time: 0.6296019554138184
-Get table content time: 0.49518370628356934
+/home/ubuntu/.local/lib/python3.10/site-packages/distributed/node.py:183: UserWarning: Port 8787 is already in use.
+Perhaps you already have a cluster running?
+Hosting the HTTP server on port 41869 instead
+  warnings.warn(
+Distributing data time: 4.804947137832642
+submit_one_func 0.0570530891418457
+submit_one_func 0.0006334781646728516
+submit_one_func 0.0004944801330566406
+submit_one_func 0.000522613525390625
+submit_one_func 0.0004837512969970703
+submit_one_func 0.0004642009735107422
+submit_one_func 0.0004627704620361328
+submit_one_func 0.0004558563232421875
+submit_one_func 0.0004591941833496094
+submit_one_func 0.0004532337188720703
+submit_one_func 0.00047469139099121094
+submit_one_func 0.00047135353088378906
+submit_one_func 0.0004963874816894531
+submit_one_func 0.0004661083221435547
+submit_one_func 0.0004684925079345703
+submit_one_func 0.0004563331604003906
+Execution time: 0.7859461307525635
+Get table content time: 0.18443560600280762
+Get table content time: 0.6007051467895508
+Get table content time: 0.48874998092651367
+Get table content time: 0.49530959129333496
+Get table content time: 0.4429967403411865
+Get table content time: 0.6231987476348877
+Get table content time: 0.5448102951049805
+Get table content time: 0.591029167175293
+Get table content time: 0.5432348251342773
+Get table content time: 0.5844748020172119
+Get table content time: 0.5110409259796143
+Get table content time: 0.5705842971801758
+Get table content time: 0.6201789379119873
+Get table content time: 0.47595667839050293
+Get table content time: 0.6520504951477051
+Get table content time: 0.5302722454071045
+Get table content time: 0.5283858776092529

@@ -1,5 +1,9 @@
-Distributing data time: 4.6665472984313965
-partitions: 0 127 0 0
-Execution time: 4.057821273803711
-Get table content time: 0.16932225227355957
-Get table content time: 3.4367623329162598
+/home/ubuntu/.local/lib/python3.10/site-packages/distributed/node.py:183: UserWarning: Port 8787 is already in use.
+Perhaps you already have a cluster running?
+Hosting the HTTP server on port 42175 instead
+  warnings.warn(
+Distributing data time: 4.6795430183410645
+submit_one_func 0.058064937591552734
+Execution time: 4.0532097816467285
+Get table content time: 0.16740965843200684
+Get table content time: 3.4123971462249756

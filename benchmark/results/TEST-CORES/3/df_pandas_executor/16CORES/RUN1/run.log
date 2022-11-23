@@ -1,35 +1,35 @@
-Distributing data time: 4.813405275344849
-partitions: 0 8 0 0
-partitions: 8 16 0 0
-partitions: 16 24 0 0
-partitions: 23 32 0 0
-partitions: 31 40 0 0
-partitions: 40 48 0 0
-partitions: 48 56 0 0
-partitions: 56 64 0 0
-partitions: 64 72 0 0
-partitions: 72 80 0 0
-partitions: 80 88 0 0
-partitions: 88 96 0 0
-partitions: 96 104 0 0
-partitions: 104 112 0 0
-partitions: 112 120 0 0
-partitions: 120 127 0 0
-Execution time: 0.9070703983306885
-Get table content time: 0.18770527839660645
-Get table content time: 0.4825570583343506
-Get table content time: 0.6355416774749756
-Get table content time: 0.5873961448669434
-Get table content time: 0.6395318508148193
-Get table content time: 0.4966855049133301
-Get table content time: 0.5364782810211182
-Get table content time: 0.6151502132415771
-Get table content time: 0.4095754623413086
-Get table content time: 0.4503457546234131
-Get table content time: 0.4874107837677002
-Get table content time: 0.5365371704101562
-Get table content time: 0.5750222206115723
-Get table content time: 0.606194019317627
-Get table content time: 0.5279490947723389
-Get table content time: 0.4331183433532715
-Get table content time: 0.6828305721282959
+Distributing data time: 4.798507213592529
+submit_one_func 0.056700706481933594
+submit_one_func 0.0005939006805419922
+submit_one_func 0.0004980564117431641
+submit_one_func 0.00048089027404785156
+submit_one_func 0.0004734992980957031
+submit_one_func 0.0004601478576660156
+submit_one_func 0.00046253204345703125
+submit_one_func 0.0004551410675048828
+submit_one_func 0.0004513263702392578
+submit_one_func 0.00046443939208984375
+submit_one_func 0.0004475116729736328
+submit_one_func 0.0004889965057373047
+submit_one_func 0.00046515464782714844
+submit_one_func 0.0004725456237792969
+submit_one_func 0.0004639625549316406
+submit_one_func 0.0004563331604003906
+Execution time: 0.8665153980255127
+Get table content time: 0.1800379753112793
+Get table content time: 0.5342135429382324
+Get table content time: 0.4654824733734131
+Get table content time: 0.45720624923706055
+Get table content time: 0.5625717639923096
+Get table content time: 0.41846156120300293
+Get table content time: 0.39905261993408203
+Get table content time: 0.48068809509277344
+Get table content time: 0.5785462856292725
+Get table content time: 0.5342414379119873
+Get table content time: 0.5419833660125732
+Get table content time: 0.5034952163696289
+Get table content time: 0.6763172149658203
+Get table content time: 0.585745096206665
+Get table content time: 0.6206076145172119
+Get table content time: 0.6372864246368408
+Get table content time: 0.6287364959716797

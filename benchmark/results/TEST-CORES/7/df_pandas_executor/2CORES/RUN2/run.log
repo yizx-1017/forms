@@ -1,17 +1,3 @@
-Distributing data time: 4.618790149688721
-partitions: 0 90 0 0
-partitions: 90 127 0 0
-Execution time: 3.506784677505493
-Get table content time: 0.1798102855682373
-Get table content time: 1.237745761871338
-all_formula_idx [0, 7071067, 10000000]
-all_formula_idx [0, 7071067, 10000000]
-Get table content time: 0.056464195251464844
-all_formula_idx [0, 7071067, 10000000]
-all_formula_idx [0, 7071067, 10000000]
-Get table content time: 2.650343894958496
-all_formula_idx [0, 7071067, 10000000]
-all_formula_idx [0, 7071067, 10000000]
-Get table content time: 0.0712120532989502
-all_formula_idx [0, 7071067, 10000000]
-all_formula_idx [0, 7071067, 10000000]
+2022-11-23 10:54:46,546 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-7_ucbh0l', purging
+/usr/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 12 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

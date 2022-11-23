@@ -1,19 +1,23 @@
-Distributing data time: 4.709959268569946
-partitions: 0 16 0 0
-partitions: 16 32 0 0
-partitions: 31 48 0 0
-partitions: 48 64 0 0
-partitions: 64 80 0 0
-partitions: 80 96 0 0
-partitions: 96 112 0 0
-partitions: 112 127 0 0
-Execution time: 1.1275148391723633
-Get table content time: 0.1788644790649414
-Get table content time: 0.8501193523406982
-Get table content time: 0.8346672058105469
-Get table content time: 0.9099407196044922
-Get table content time: 0.7855894565582275
-Get table content time: 0.8717858791351318
-Get table content time: 0.7114870548248291
-Get table content time: 0.8569891452789307
-Get table content time: 0.8569955825805664
+/home/ubuntu/.local/lib/python3.10/site-packages/distributed/node.py:183: UserWarning: Port 8787 is already in use.
+Perhaps you already have a cluster running?
+Hosting the HTTP server on port 38691 instead
+  warnings.warn(
+Distributing data time: 4.729559898376465
+submit_one_func 0.0593717098236084
+submit_one_func 0.0006604194641113281
+submit_one_func 0.0005555152893066406
+submit_one_func 0.0005342960357666016
+submit_one_func 0.0005464553833007812
+submit_one_func 0.0005249977111816406
+submit_one_func 0.0005421638488769531
+submit_one_func 0.0005283355712890625
+Execution time: 1.1347675323486328
+Get table content time: 0.17908978462219238
+Get table content time: 0.8296711444854736
+Get table content time: 0.6843287944793701
+Get table content time: 0.8616001605987549
+Get table content time: 0.8410592079162598
+Get table content time: 0.8572666645050049
+Get table content time: 0.6539428234100342
+Get table content time: 0.9723093509674072
+Get table content time: 0.8904328346252441

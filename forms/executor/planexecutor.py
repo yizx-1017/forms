@@ -12,7 +12,7 @@
 #  See the License for the specific language governing permissions and
 #  limitations under the License.
 
-from time import sleep
+from time import sleep, time
 
 from forms.executor.executionnode import from_plan_to_execution_tree
 from forms.scheduler.scheduler import *
@@ -55,33 +55,40 @@ class PlanExecutor(ABC):
         remote_object_dict = {}
         while not scheduler.is_finished():
             next_subtree, physical_subtree_list = scheduler.next_subtree()
-            if next_subtree is not None:
-                physical_subtree_list_dict[next_subtree] = physical_subtree_list
-                remote_object_dict[next_subtree] = [
-                    self.runtime.submit_one_func(self.execute_one_subtree, physical_subtree)
-                    for physical_subtree in physical_subtree_list
-                ]
-
-            finished_exec_subtrees = [
-                exec_subtree
-                for exec_subtree in remote_object_dict
-                if all(
-                    [
-                        remote_object.is_object_computed()
-                        for remote_object in remote_object_dict[exec_subtree]
+            if forms_config.synchronous:
+                start_time = time()
+                scheduler.finish_subtree(
+                    next_subtree, DFTable(df=self.execute_one_subtree(physical_subtree_list[0]))
+                )
+                forms_global.put_one_metric("computation_time", time() - start_time)
+            else:
+                if next_subtree is not None:
+                    physical_subtree_list_dict[next_subtree] = physical_subtree_list
+                    remote_object_dict[next_subtree] = [
+                        self.runtime.submit_one_func(self.execute_one_subtree, physical_subtree)
+                        for physical_subtree in physical_subtree_list
                     ]
-                )
-            ]
-            for exec_subtree in finished_exec_subtrees:
-                intermediate_result = self.collect_results(
-                    remote_object_dict[exec_subtree],
-                    physical_subtree_list_dict[exec_subtree],
-                    exec_config.axis,
-                )
-                scheduler.finish_subtree(exec_subtree, intermediate_result)
-                del remote_object_dict[exec_subtree]
 
-            sleep(self.schedule_interval)
+                finished_exec_subtrees = [
+                    exec_subtree
+                    for exec_subtree in remote_object_dict
+                    if all(
+                        [
+                            remote_object.is_object_computed()
+                            for remote_object in remote_object_dict[exec_subtree]
+                        ]
+                    )
+                ]
+                for exec_subtree in finished_exec_subtrees:
+                    intermediate_result = self.collect_results(
+                        remote_object_dict[exec_subtree],
+                        physical_subtree_list_dict[exec_subtree],
+                        exec_config.axis,
+                    )
+                    scheduler.finish_subtree(exec_subtree, intermediate_result)
+                    del remote_object_dict[exec_subtree]
+
+                sleep(self.schedule_interval)
 
         return scheduler.get_results()
 

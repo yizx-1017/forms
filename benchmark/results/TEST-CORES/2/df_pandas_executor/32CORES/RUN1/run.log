@@ -1,67 +1,67 @@
-Distributing data time: 5.012554168701172
-partitions: 0 4 0 0
-partitions: 4 8 0 0
-partitions: 8 12 0 0
-partitions: 11 16 0 0
-partitions: 16 20 0 0
-partitions: 19 24 0 0
-partitions: 23 28 0 0
-partitions: 28 32 0 0
-partitions: 31 36 0 0
-partitions: 36 40 0 0
-partitions: 40 44 0 0
-partitions: 44 48 0 0
-partitions: 48 52 0 0
-partitions: 52 56 0 0
-partitions: 56 60 0 0
-partitions: 60 64 0 0
-partitions: 64 68 0 0
-partitions: 67 72 0 0
-partitions: 72 76 0 0
-partitions: 76 80 0 0
-partitions: 80 84 0 0
-partitions: 84 88 0 0
-partitions: 88 92 0 0
-partitions: 92 96 0 0
-partitions: 96 100 0 0
-partitions: 100 104 0 0
-partitions: 104 108 0 0
-partitions: 108 112 0 0
-partitions: 112 116 0 0
-partitions: 116 120 0 0
-partitions: 120 124 0 0
-partitions: 124 127 0 0
-Execution time: 0.8335919380187988
-Get table content time: 0.2123427391052246
-Get table content time: 0.588397741317749
-Get table content time: 0.5879299640655518
-Get table content time: 0.5796103477478027
-Get table content time: 0.4649322032928467
-Get table content time: 0.4775826930999756
-Get table content time: 0.40787720680236816
-Get table content time: 0.4363865852355957
-Get table content time: 0.6468560695648193
-Get table content time: 0.5552620887756348
-Get table content time: 0.36542534828186035
-Get table content time: 0.6182191371917725
-Get table content time: 0.5752658843994141
-Get table content time: 0.4837663173675537
-Get table content time: 0.6024637222290039
-Get table content time: 0.434131383895874
-Get table content time: 0.5782337188720703
-Get table content time: 0.5329639911651611
-Get table content time: 0.47554755210876465
-Get table content time: 0.6036970615386963
-Get table content time: 0.5182251930236816
-Get table content time: 0.6110148429870605
-Get table content time: 0.45337653160095215
-Get table content time: 0.4703209400177002
-Get table content time: 0.4185752868652344
-Get table content time: 0.5094308853149414
-Get table content time: 0.616217851638794
-Get table content time: 0.49903297424316406
-Get table content time: 0.5700702667236328
-Get table content time: 0.5297451019287109
-Get table content time: 0.5783157348632812
-Get table content time: 0.5110926628112793
-Get table content time: 0.4589419364929199
+Distributing data time: 5.0322723388671875
+submit_one_func 0.0767366886138916
+submit_one_func 0.0006561279296875
+submit_one_func 0.0004818439483642578
+submit_one_func 0.0004792213439941406
+submit_one_func 0.00046634674072265625
+submit_one_func 0.00046133995056152344
+submit_one_func 0.0005095005035400391
+submit_one_func 0.0005016326904296875
+submit_one_func 0.00044989585876464844
+submit_one_func 0.000457763671875
+submit_one_func 0.0004394054412841797
+submit_one_func 0.0004336833953857422
+submit_one_func 0.00043082237243652344
+submit_one_func 0.0004336833953857422
+submit_one_func 0.00043320655822753906
+submit_one_func 0.00042724609375
+submit_one_func 0.0004429817199707031
+submit_one_func 0.0004258155822753906
+submit_one_func 0.000446319580078125
+submit_one_func 0.0004315376281738281
+submit_one_func 0.00042557716369628906
+submit_one_func 0.00043082237243652344
+submit_one_func 0.00042247772216796875
+submit_one_func 0.0004239082336425781
+submit_one_func 0.000423431396484375
+submit_one_func 0.0004374980926513672
+submit_one_func 0.0004298686981201172
+submit_one_func 0.00044155120849609375
+submit_one_func 0.0004603862762451172
+submit_one_func 0.0004413127899169922
+submit_one_func 0.00043082237243652344
+submit_one_func 0.0004355907440185547
+Execution time: 0.8207495212554932
+Get table content time: 0.21395277976989746
+Get table content time: 0.5198917388916016
+Get table content time: 0.5717644691467285
+Get table content time: 0.5995421409606934
+Get table content time: 0.42345499992370605
+Get table content time: 0.6260089874267578
+Get table content time: 0.5663857460021973
+Get table content time: 0.5640716552734375
+Get table content time: 0.5444295406341553
+Get table content time: 0.45682787895202637
+Get table content time: 0.3997313976287842
+Get table content time: 0.6046767234802246
+Get table content time: 0.5686368942260742
+Get table content time: 0.4671037197113037
+Get table content time: 0.5259349346160889
+Get table content time: 0.45658159255981445
+Get table content time: 0.6277749538421631
+Get table content time: 0.4663398265838623
+Get table content time: 0.5868229866027832
+Get table content time: 0.5738425254821777
+Get table content time: 0.585315465927124
+Get table content time: 0.4757273197174072
+Get table content time: 0.6578176021575928
+Get table content time: 0.6621527671813965
+Get table content time: 0.4568328857421875
+Get table content time: 0.5530452728271484
+Get table content time: 0.45753931999206543
+Get table content time: 0.4905056953430176
+Get table content time: 0.47416186332702637
+Get table content time: 0.5260536670684814
+Get table content time: 0.4893016815185547
+Get table content time: 0.5779454708099365
+Get table content time: 0.5829215049743652

@@ -1,8 +1,7 @@
-Distributing data time: 4.711603164672852
-partitions: 0 127 0 0
-Execution time: 4.089422702789307
-Get table content time: 0.16855144500732422
-Get table content time: 3.464923858642578
-all_formula_idx [0, 10000000]
-Get table content time: 0.053678035736083984
-all_formula_idx [0, 10000000]
+Distributing data time: 4.618710041046143
+submit_one_func 0.056937217712402344
+submit_one_func 0.0006039142608642578
+Execution time: 4.090363264083862
+Get table content time: 0.16558361053466797
+Get table content time: 3.4356985092163086
+Get table content time: 0.05142378807067871

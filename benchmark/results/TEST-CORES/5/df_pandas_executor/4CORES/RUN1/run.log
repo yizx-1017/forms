@@ -1,23 +1,19 @@
-Distributing data time: 4.620419502258301
-partitions: 0 63 0 0
-partitions: 63 90 0 0
-partitions: 90 110 0 0
-partitions: 110 127 0 0
-Execution time: 2.404985189437866
-Get table content time: 0.1809251308441162
-Get table content time: 1.077906847000122
-all_formula_idx [0, 4999999, 7071067, 8660253, 10000000]
-Get table content time: 0.09166836738586426
-all_formula_idx [0, 4999999, 7071067, 8660253, 10000000]
-Get table content time: 0.7446653842926025
-all_formula_idx [0, 4999999, 7071067, 8660253, 10000000]
-Get table content time: 0.08481502532958984
-all_formula_idx [0, 4999999, 7071067, 8660253, 10000000]
-Get table content time: 1.951796054840088
-all_formula_idx [0, 4999999, 7071067, 8660253, 10000000]
-Get table content time: 0.10463547706604004
-all_formula_idx [0, 4999999, 7071067, 8660253, 10000000]
-Get table content time: 0.8026556968688965
-all_formula_idx [0, 4999999, 7071067, 8660253, 10000000]
-Get table content time: 0.10177111625671387
-all_formula_idx [0, 4999999, 7071067, 8660253, 10000000]
+Distributing data time: 4.641004800796509
+submit_one_func 0.06247735023498535
+submit_one_func 0.0010437965393066406
+submit_one_func 0.0006170272827148438
+submit_one_func 0.0005624294281005859
+submit_one_func 0.0009226799011230469
+submit_one_func 0.00046634674072265625
+submit_one_func 0.0004425048828125
+submit_one_func 0.00042247772216796875
+Execution time: 2.3964736461639404
+Get table content time: 0.18333768844604492
+Get table content time: 0.5738565921783447
+Get table content time: 0.08998751640319824
+Get table content time: 1.901116132736206
+Get table content time: 0.11207842826843262
+Get table content time: 1.0098228454589844
+Get table content time: 0.08843731880187988
+Get table content time: 0.7896966934204102
+Get table content time: 0.11092519760131836

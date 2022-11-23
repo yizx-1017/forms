@@ -1,67 +1,71 @@
-Distributing data time: 5.023639678955078
-partitions: 0 4 0 0
-partitions: 4 8 0 0
-partitions: 8 12 0 0
-partitions: 11 16 0 0
-partitions: 16 20 0 0
-partitions: 19 24 0 0
-partitions: 23 28 0 0
-partitions: 28 32 0 0
-partitions: 31 36 0 0
-partitions: 36 40 0 0
-partitions: 40 44 0 0
-partitions: 44 48 0 0
-partitions: 48 52 0 0
-partitions: 52 56 0 0
-partitions: 56 60 0 0
-partitions: 60 64 0 0
-partitions: 64 68 0 0
-partitions: 67 72 0 0
-partitions: 72 76 0 0
-partitions: 76 80 0 0
-partitions: 80 84 0 0
-partitions: 84 88 0 0
-partitions: 88 92 0 0
-partitions: 92 96 0 0
-partitions: 96 100 0 0
-partitions: 100 104 0 0
-partitions: 104 108 0 0
-partitions: 108 112 0 0
-partitions: 112 116 0 0
-partitions: 116 120 0 0
-partitions: 120 124 0 0
-partitions: 124 127 0 0
-Execution time: 0.8309099674224854
-Get table content time: 0.21097135543823242
-Get table content time: 0.49243664741516113
-Get table content time: 0.442920446395874
-Get table content time: 0.4968833923339844
-Get table content time: 0.3735818862915039
-Get table content time: 0.4270904064178467
-Get table content time: 0.5631253719329834
-Get table content time: 0.5582237243652344
-Get table content time: 0.3577401638031006
-Get table content time: 0.4004490375518799
-Get table content time: 0.4091520309448242
-Get table content time: 0.40282273292541504
-Get table content time: 0.5481202602386475
-Get table content time: 0.5373036861419678
-Get table content time: 0.44478559494018555
-Get table content time: 0.33635735511779785
-Get table content time: 0.5717957019805908
-Get table content time: 0.4086623191833496
-Get table content time: 0.3717529773712158
-Get table content time: 0.5305566787719727
-Get table content time: 0.4837684631347656
-Get table content time: 0.43761110305786133
-Get table content time: 0.38613390922546387
-Get table content time: 0.567124605178833
-Get table content time: 0.4639718532562256
-Get table content time: 0.3597300052642822
-Get table content time: 0.614163875579834
-Get table content time: 0.5537328720092773
-Get table content time: 0.3804619312286377
-Get table content time: 0.5061578750610352
-Get table content time: 0.41066908836364746
-Get table content time: 0.43571972846984863
-Get table content time: 0.5685338973999023
+/home/ubuntu/.local/lib/python3.10/site-packages/distributed/node.py:183: UserWarning: Port 8787 is already in use.
+Perhaps you already have a cluster running?
+Hosting the HTTP server on port 36579 instead
+  warnings.warn(
+Distributing data time: 5.065418004989624
+submit_one_func 0.09478068351745605
+submit_one_func 0.0006320476531982422
+submit_one_func 0.0004892349243164062
+submit_one_func 0.0004918575286865234
+submit_one_func 0.0004737377166748047
+submit_one_func 0.00046324729919433594
+submit_one_func 0.0004642009735107422
+submit_one_func 0.00046181678771972656
+submit_one_func 0.00045943260192871094
+submit_one_func 0.00047326087951660156
+submit_one_func 0.00045418739318847656
+submit_one_func 0.00046443939208984375
+submit_one_func 0.00043964385986328125
+submit_one_func 0.00045752525329589844
+submit_one_func 0.00044798851013183594
+submit_one_func 0.00043582916259765625
+submit_one_func 0.0004432201385498047
+submit_one_func 0.0004508495330810547
+submit_one_func 0.0004942417144775391
+submit_one_func 0.0004630088806152344
+submit_one_func 0.00043272972106933594
+submit_one_func 0.0004696846008300781
+submit_one_func 0.00048089027404785156
+submit_one_func 0.00044798851013183594
+submit_one_func 0.0004639625549316406
+submit_one_func 0.0004410743713378906
+submit_one_func 0.0004417896270751953
+submit_one_func 0.00044155120849609375
+submit_one_func 0.00044608116149902344
+submit_one_func 0.0004451274871826172
+submit_one_func 0.00045037269592285156
+submit_one_func 0.0011439323425292969
+Execution time: 0.836449146270752
+Get table content time: 0.2521986961364746
+Get table content time: 0.450162410736084
+Get table content time: 0.31299591064453125
+Get table content time: 0.5291283130645752
+Get table content time: 0.5252368450164795
+Get table content time: 0.5323781967163086
+Get table content time: 0.5752031803131104
+Get table content time: 0.3108518123626709
+Get table content time: 0.4567606449127197
+Get table content time: 0.4169926643371582
+Get table content time: 0.4412569999694824
+Get table content time: 0.44092774391174316
+Get table content time: 0.55745530128479
+Get table content time: 0.42595410346984863
+Get table content time: 0.5762600898742676
+Get table content time: 0.5216712951660156
+Get table content time: 0.42225027084350586
+Get table content time: 0.4070923328399658
+Get table content time: 0.6030313968658447
+Get table content time: 0.4946615695953369
+Get table content time: 0.49499011039733887
+Get table content time: 0.4324605464935303
+Get table content time: 0.48543405532836914
+Get table content time: 0.3823215961456299
+Get table content time: 0.5084388256072998
+Get table content time: 0.48961806297302246
+Get table content time: 0.5446348190307617
+Get table content time: 0.5707581043243408
+Get table content time: 0.5782849788665771
+Get table content time: 0.3889729976654053
+Get table content time: 0.5100088119506836
+Get table content time: 0.5043225288391113
+Get table content time: 0.4223473072052002

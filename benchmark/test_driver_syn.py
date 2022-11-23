@@ -30,7 +30,7 @@ if __name__ == "__main__":
         df = df.iloc[0 : args.row_num]
     df.iloc[:, 4] = [20 * (i + 1) for i in range(len(df))]
     fs.config(
-        cores=args.cores,
+        cores=1,
         scheduler="simple",
         enable_logical_rewriting=False,
         enable_physical_opt=False,

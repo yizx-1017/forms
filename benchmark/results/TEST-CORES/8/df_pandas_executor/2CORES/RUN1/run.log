@@ -1,7 +1,3 @@
-Distributing data time: 4.621207237243652
-partitions: 0 90 0 0
-partitions: 0 127 0 0
-Execution time: 10.52425503730774
-Get table content time: 0.17938494682312012
-Get table content time: 4.142175912857056
-Get table content time: 3.087047815322876
+2022-11-23 11:35:01,872 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-cl744z_l', purging
+/usr/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 12 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

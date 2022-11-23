@@ -1,19 +1,6 @@
-Distributing data time: 4.689363956451416
-partitions: 0 45 0 0
-partitions: 0 63 0 0
-partitions: 0 78 0 0
-partitions: 0 90 0 0
-partitions: 0 101 0 0
-partitions: 0 110 0 0
-partitions: 0 119 0 0
-partitions: 0 127 0 0
-Execution time: 11.697518825531006
-Get table content time: 0.16958284378051758
-Get table content time: 2.4089410305023193
-Get table content time: 3.010812520980835
-Get table content time: 6.664379358291626
-Get table content time: 3.5823373794555664
-Get table content time: 4.423766374588013
-Get table content time: 6.503180742263794
-Get table content time: 4.868632793426514
-Get table content time: 4.133995532989502
+2022-11-23 11:45:02,293 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-3fdyxktx', purging
+2022-11-23 11:45:02,293 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-9vj9cwii', purging
+2022-11-23 11:45:02,293 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-asqoaxqj', purging
+2022-11-23 11:45:02,293 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-x7i5n2tc', purging
+/usr/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 48 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

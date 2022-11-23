@@ -1,31 +1,13 @@
-Distributing data time: 4.749988794326782
-partitions: 0 63 0 0
-partitions: 63 90 0 0
-partitions: 90 110 0 0
-partitions: 110 127 0 0
-Execution time: 2.794010639190674
-Get table content time: 0.18305325508117676
-Get table content time: 0.8509707450866699
-all_formula_idx [0, 4999999, 7071067, 8660253, 10000000]
-all_formula_idx [0, 4999999, 7071067, 8660253, 10000000]
-Get table content time: 0.10662698745727539
-all_formula_idx [0, 4999999, 7071067, 8660253, 10000000]
-all_formula_idx [0, 4999999, 7071067, 8660253, 10000000]
-Get table content time: 0.740466833114624
-all_formula_idx [0, 4999999, 7071067, 8660253, 10000000]
-all_formula_idx [0, 4999999, 7071067, 8660253, 10000000]
-Get table content time: 0.08234095573425293
-all_formula_idx [0, 4999999, 7071067, 8660253, 10000000]
-all_formula_idx [0, 4999999, 7071067, 8660253, 10000000]
-Get table content time: 2.0661680698394775
-all_formula_idx [0, 4999999, 7071067, 8660253, 10000000]
-all_formula_idx [0, 4999999, 7071067, 8660253, 10000000]
-Get table content time: 0.11163163185119629
-all_formula_idx [0, 4999999, 7071067, 8660253, 10000000]
-all_formula_idx [0, 4999999, 7071067, 8660253, 10000000]
-Get table content time: 1.146517276763916
-all_formula_idx [0, 4999999, 7071067, 8660253, 10000000]
-all_formula_idx [0, 4999999, 7071067, 8660253, 10000000]
-Get table content time: 0.0781545639038086
-all_formula_idx [0, 4999999, 7071067, 8660253, 10000000]
-all_formula_idx [0, 4999999, 7071067, 8660253, 10000000]
+2022-11-23 10:59:46,624 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-gwz28ss0', purging
+2022-11-23 10:59:46,624 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-zhsnteba', purging
+Distributing data time: 4.596026420593262
+submit_one_func 0.05742812156677246
+submit_one_func 0.0007376670837402344
+submit_one_func 0.0006401538848876953
+submit_one_func 0.0006439685821533203
+Execution time: 266.79210352897644
+Get table content time: 0.18359613418579102
+Get table content time: 1.3970906734466553
+Get table content time: 1.4761555194854736
+Get table content time: 1.314537525177002
+Get table content time: 1.3968605995178223
