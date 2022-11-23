@@ -1,35 +1,19 @@
-Distributing data time: 4.929958820343018
-partitions: 0 8 0 0
-partitions: 8 16 0 0
-partitions: 16 23 0 0
-partitions: 23 31 0 0
-partitions: 31 40 0 0
-partitions: 40 48 0 0
-partitions: 48 56 0 0
-partitions: 56 64 0 0
-partitions: 64 72 0 0
-partitions: 72 80 0 0
-partitions: 80 88 0 0
-partitions: 88 96 0 0
-partitions: 96 104 0 0
-partitions: 104 112 0 0
-partitions: 112 120 0 0
-partitions: 120 127 0 0
-Execution time: 54.165454387664795
-Get table content time: 0.1898939609527588
-Get table content time: 0.6074700355529785
-Get table content time: 0.6769077777862549
-Get table content time: 0.5448215007781982
-Get table content time: 0.572075605392456
-Get table content time: 0.7356996536254883
-Get table content time: 0.5817885398864746
-Get table content time: 0.5348005294799805
-Get table content time: 0.5785198211669922
-Get table content time: 0.7573387622833252
-Get table content time: 0.5716392993927002
-Get table content time: 0.42623400688171387
-Get table content time: 0.3924446105957031
-Get table content time: 0.4558708667755127
-Get table content time: 0.5404253005981445
-Get table content time: 0.44574809074401855
-Get table content time: 0.7885160446166992
+Distributing data time: 0.9107053279876709
+Execution time: 7.769017457962036
+Get table content time: 0.04574251174926758
+Get table content time: 0.11774110794067383
+Get table content time: 0.10794496536254883
+Get table content time: 0.14087605476379395
+Get table content time: 0.16171789169311523
+Get table content time: 0.0986936092376709
+Get table content time: 0.11385512351989746
+Get table content time: 0.3987100124359131
+Get table content time: 0.12398695945739746
+Get table content time: 0.09999418258666992
+Get table content time: 0.10250210762023926
+Get table content time: 0.09516191482543945
+Get table content time: 0.12481331825256348
+Get table content time: 0.10458755493164062
+Get table content time: 0.33745598793029785
+Get table content time: 0.09026575088500977
+Get table content time: 0.20888185501098633

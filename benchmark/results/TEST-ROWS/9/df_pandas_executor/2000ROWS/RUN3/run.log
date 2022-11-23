@@ -1,0 +1,83 @@
+<<<<<<< HEAD
+Traceback (most recent call last):
+  File "/Users/eve/Desktop/S/6.5/forms/benchmark/test_driver.py", line 8, in <module>
+    import forms as fs
+  File "/Users/eve/Desktop/S/6.5/forms/forms/__init__.py", line 17, in <module>
+    from forms.core.forms import compute_formula, config, print_spreadsheet_view
+  File "/Users/eve/Desktop/S/6.5/forms/forms/core/forms.py", line 27, in <module>
+    from forms.utils.executors import create_executor_by_name
+  File "/Users/eve/Desktop/S/6.5/forms/forms/utils/executors.py", line 16, in <module>
+    from forms.executor.dfexecutor.planexecutor import DFPlanExecutor
+  File "/Users/eve/Desktop/S/6.5/forms/forms/executor/dfexecutor/planexecutor.py", line 24, in <module>
+    from forms.executor.planexecutor import PlanExecutor
+  File "/Users/eve/Desktop/S/6.5/forms/forms/executor/planexecutor.py", line 21, in <module>
+    from forms.scheduler.utils import create_scheduler_by_name
+  File "/Users/eve/Desktop/S/6.5/forms/forms/scheduler/utils.py", line 19, in <module>
+    from forms.scheduler.dfscheduler.dfscheduler import DFSimpleScheduler, PrioritizedScheduler
+  File "/Users/eve/Desktop/S/6.5/forms/forms/scheduler/dfscheduler/dfscheduler.py", line 20, in <module>
+    from forms.scheduler.dfscheduler.phase import create_phase_by_name
+  File "/Users/eve/Desktop/S/6.5/forms/forms/scheduler/dfscheduler/phase.py", line 21, in <module>
+    from forms.executor.dfexecutor.utils import remote_access_planning
+  File "/Users/eve/Desktop/S/6.5/forms/forms/executor/dfexecutor/utils.py", line 229
+    start_idx =
+               ^
+SyntaxError: invalid syntax
+=======
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: invalid value encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: invalid value encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: divide by zero encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/numpy/polynomial/polynomial.py:754: RuntimeWarning: invalid value encountered in double_scalars
+  c0 = c[-1] + x*0
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: invalid value encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:778: RuntimeWarning: divide by zero encountered in double_scalars
+  return 1 / x_new - 1
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: divide by zero encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/numpy/polynomial/polynomial.py:754: RuntimeWarning: invalid value encountered in double_scalars
+  c0 = c[-1] + x*0
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: invalid value encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: divide by zero encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/numpy/polynomial/polynomial.py:754: RuntimeWarning: invalid value encountered in double_scalars
+  c0 = c[-1] + x*0
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: invalid value encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: divide by zero encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/numpy/polynomial/polynomial.py:754: RuntimeWarning: invalid value encountered in double_scalars
+  c0 = c[-1] + x*0
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: invalid value encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+Distributing data time: 0.6386210918426514
+submit_one_func 0.20549511909484863
+submit_one_func 0.0006546974182128906
+submit_one_func 0.0005440711975097656
+submit_one_func 0.001277923583984375
+submit_one_func 0.0014493465423583984
+submit_one_func 0.0006740093231201172
+submit_one_func 0.0006191730499267578
+submit_one_func 0.000843048095703125
+submit_one_func 0.0006120204925537109
+submit_one_func 0.0006010532379150391
+submit_one_func 0.0008347034454345703
+submit_one_func 0.001068115234375
+Execution time: 0.5514039993286133
+Get table content time: 0.0435788631439209
+Get table content time: 0.27796101570129395
+Get table content time: 0.1848311424255371
+Get table content time: 0.1710960865020752
+Get table content time: 0.27407193183898926
+Get table content time: 0.17293000221252441
+Get table content time: 0.1843881607055664
+Get table content time: 0.22332024574279785
+Get table content time: 0.18727612495422363
+Get table content time: 0.2028369903564453
+Get table content time: 0.27071428298950195
+Get table content time: 0.22552704811096191
+Get table content time: 0.25336432456970215
+>>>>>>> df919a2c2abd8825d2dfa1628ca8da49051bf6c3

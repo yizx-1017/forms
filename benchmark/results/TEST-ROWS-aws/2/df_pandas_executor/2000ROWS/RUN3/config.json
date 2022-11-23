@@ -1,0 +1,23 @@
+{
+    "timestamp": "2022-11-11 10:53:00.653803",
+    "cores": 12,
+    "scheduler": "prioritized",
+    "enable_logical_rewriting": true,
+    "enable_physical_opt": true,
+    "function_executor": "df_pandas_executor",
+    "cost_model": "loadbalance",
+    "enable_communication_opt": true,
+    "enable_sumif_opt": false,
+    "along_row_first": false,
+    "partition_shape": [
+        256,
+        1
+    ],
+    "row_num": 2000,
+    "filename": "weather.csv",
+    "formula_str": "=MAX(I1:I7)",
+    "distributing_data_time_in_ms": 401.6764163970947,
+    "execution_time_in_ms": 192.00444221496582,
+    "planning_time_in_ms": 3.3004283905029297,
+    "timecost_in_ms": 1430.7780265808105
+}

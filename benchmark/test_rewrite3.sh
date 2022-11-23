@@ -3,7 +3,7 @@
 declare -a RUN_OPTIONS=(1 2 3)
 declare FILENAME='weather_10M.csv'
 declare FORMULA=formula_for_rewrite_sumif.csv
-declare ROWS=10000000
+declare ROWS=1000000
 declare CORES=16
 
 n=0

@@ -34,17 +34,11 @@ def formulas_executor(physical_subtree: FunctionExecutionNode) -> DFTable:
         for child in physical_subtree.children:
             if isinstance(child, RefExecutionNode):
                 df = child.table.get_table_content()
-                index = (
-                    idx - start_formula_idx
-                    if child.exec_context.start_formula_idx == 0
-                    or child.exec_context.enable_communication_opt
-                    else idx
-                )  # check intermediate node
                 window = None
                 axis = child.exec_context.axis
                 # TODO: add support for axis_along_column
                 if axis == axis_along_row:
-                    indices = get_reference_indices_for_single_index(child, index)
+                    indices = get_reference_indices_for_single_index(child, idx)
                     if indices is not None:
                         start_row, start_column, end_row, end_column = indices
                         df = df.iloc[start_row:end_row, start_column:end_column]

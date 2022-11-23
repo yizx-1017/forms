@@ -225,7 +225,11 @@ def min_cost(ranges: list):
 
 
 def remote_access_planning(exec_subtree: FunctionExecutionNode) -> FunctionExecutionNode:
-    if forms_config.enable_communication_opt:
+    if forms_config.synchronous:
+        refs = get_refs(exec_subtree)
+        for ref in refs:
+            ref.table = DFTable(df=ref.table.get_table_content())
+    elif forms_config.enable_communication_opt:
         start_idx = exec_subtree.exec_context.start_formula_idx
         end_idx = exec_subtree.exec_context.end_formula_idx
         fr_rf_optimization = exec_subtree.fr_rf_optimization
@@ -319,6 +323,8 @@ def get_reference_indices_for_single_index(ref_node: RefExecutionNode, idx: int)
     col_width = ref.last_col + 1 - ref.col
     row = ref_node.row_offset if ref_node.exec_context.enable_communication_opt else ref.row
     col = ref_node.col_offset if ref_node.exec_context.enable_communication_opt else ref.col
+    if ref_node.exec_context.enable_communication_opt and ref_node.out_ref_type != RefType.FR:
+        idx = idx - ref_node.exec_context.start_formula_idx
     out_ref_type = ref_node.out_ref_type
     if out_ref_type == RefType.RR and idx + ref.last_row + 1 <= table.get_num_of_rows():
         return row + idx, col, row + idx + row_length, col + col_width

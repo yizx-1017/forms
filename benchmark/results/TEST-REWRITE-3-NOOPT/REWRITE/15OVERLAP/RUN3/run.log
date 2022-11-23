@@ -1,35 +1,19 @@
-Distributing data time: 4.882298231124878
-partitions: 0 8 0 0
-partitions: 8 16 0 0
-partitions: 16 23 0 0
-partitions: 23 31 0 0
-partitions: 31 40 0 0
-partitions: 40 48 0 0
-partitions: 48 56 0 0
-partitions: 56 64 0 0
-partitions: 64 72 0 0
-partitions: 72 80 0 0
-partitions: 80 88 0 0
-partitions: 88 96 0 0
-partitions: 96 104 0 0
-partitions: 104 112 0 0
-partitions: 112 120 0 0
-partitions: 120 127 0 0
-Execution time: 54.988391399383545
-Get table content time: 0.18687653541564941
-Get table content time: 0.550879716873169
-Get table content time: 0.7551472187042236
-Get table content time: 0.5641474723815918
-Get table content time: 0.5341002941131592
-Get table content time: 0.5230696201324463
-Get table content time: 0.5396404266357422
-Get table content time: 0.7406821250915527
-Get table content time: 0.4601724147796631
-Get table content time: 0.5348691940307617
-Get table content time: 0.4093320369720459
-Get table content time: 0.47487926483154297
-Get table content time: 0.4466593265533447
-Get table content time: 0.5673377513885498
-Get table content time: 0.49561572074890137
-Get table content time: 0.44082188606262207
-Get table content time: 0.4830775260925293
+Distributing data time: 0.9080362319946289
+Execution time: 7.697747230529785
+Get table content time: 0.045626163482666016
+Get table content time: 0.2640218734741211
+Get table content time: 0.17695832252502441
+Get table content time: 0.10890698432922363
+Get table content time: 0.11702561378479004
+Get table content time: 0.12328791618347168
+Get table content time: 0.12374091148376465
+Get table content time: 0.11911630630493164
+Get table content time: 0.09225869178771973
+Get table content time: 0.10769391059875488
+Get table content time: 0.10788989067077637
+Get table content time: 0.2573106288909912
+Get table content time: 0.14831757545471191
+Get table content time: 0.12073183059692383
+Get table content time: 0.10932254791259766
+Get table content time: 0.3815596103668213
+Get table content time: 0.19037985801696777

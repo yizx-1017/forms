@@ -1,0 +1,53 @@
+<<<<<<< HEAD
+Traceback (most recent call last):
+  File "/Users/eve/Desktop/S/6.5/forms/benchmark/test_driver.py", line 8, in <module>
+    import forms as fs
+  File "/Users/eve/Desktop/S/6.5/forms/forms/__init__.py", line 17, in <module>
+    from forms.core.forms import compute_formula, config, print_spreadsheet_view
+  File "/Users/eve/Desktop/S/6.5/forms/forms/core/forms.py", line 27, in <module>
+    from forms.utils.executors import create_executor_by_name
+  File "/Users/eve/Desktop/S/6.5/forms/forms/utils/executors.py", line 16, in <module>
+    from forms.executor.dfexecutor.planexecutor import DFPlanExecutor
+  File "/Users/eve/Desktop/S/6.5/forms/forms/executor/dfexecutor/planexecutor.py", line 24, in <module>
+    from forms.executor.planexecutor import PlanExecutor
+  File "/Users/eve/Desktop/S/6.5/forms/forms/executor/planexecutor.py", line 21, in <module>
+    from forms.scheduler.utils import create_scheduler_by_name
+  File "/Users/eve/Desktop/S/6.5/forms/forms/scheduler/utils.py", line 19, in <module>
+    from forms.scheduler.dfscheduler.dfscheduler import DFSimpleScheduler, PrioritizedScheduler
+  File "/Users/eve/Desktop/S/6.5/forms/forms/scheduler/dfscheduler/dfscheduler.py", line 20, in <module>
+    from forms.scheduler.dfscheduler.phase import create_phase_by_name
+  File "/Users/eve/Desktop/S/6.5/forms/forms/scheduler/dfscheduler/phase.py", line 21, in <module>
+    from forms.executor.dfexecutor.utils import remote_access_planning
+  File "/Users/eve/Desktop/S/6.5/forms/forms/executor/dfexecutor/utils.py", line 229
+    start_idx =
+               ^
+SyntaxError: invalid syntax
+=======
+Distributing data time: 0.6415481567382812
+submit_one_func 0.22987818717956543
+submit_one_func 0.0010950565338134766
+submit_one_func 0.0010912418365478516
+submit_one_func 0.0011930465698242188
+submit_one_func 0.0009539127349853516
+submit_one_func 0.0009851455688476562
+submit_one_func 0.0011429786682128906
+submit_one_func 0.0021331310272216797
+submit_one_func 0.0012090206146240234
+submit_one_func 0.0015828609466552734
+submit_one_func 0.0014979839324951172
+submit_one_func 0.0033600330352783203
+Execution time: 28.178419828414917
+Get table content time: 0.04068493843078613
+Get table content time: 2.2848379611968994
+Get table content time: 1.2195978164672852
+Get table content time: 4.808452844619751
+Get table content time: 0.4237971305847168
+Get table content time: 1.5684478282928467
+Get table content time: 5.293535232543945
+Get table content time: 5.586896181106567
+Get table content time: 1.9217281341552734
+Get table content time: 1.2818312644958496
+Get table content time: 3.1356701850891113
+Get table content time: 5.430619239807129
+Get table content time: 5.529818773269653
+>>>>>>> df919a2c2abd8825d2dfa1628ca8da49051bf6c3

@@ -1,0 +1,21 @@
+/Users/eve/Desktop/S/6.5/forms/benchmark/test_driver.py:34: DtypeWarning: Columns (19,21) have mixed types. Specify dtype option on import or set low_memory=False.
+  df = pd.read_csv(filepath)
+distributed.worker - WARNING - Worker is at 83% memory usage. Pausing worker.  Process memory: 1.11 GiB -- Worker memory limit: 1.33 GiB
+distributed.worker - WARNING - Worker is at 81% memory usage. Pausing worker.  Process memory: 1.08 GiB -- Worker memory limit: 1.33 GiB
+distributed.worker - WARNING - Worker is at 52% memory usage. Resuming worker. Process memory: 713.05 MiB -- Worker memory limit: 1.33 GiB
+distributed.worker - WARNING - Worker is at 48% memory usage. Resuming worker. Process memory: 668.43 MiB -- Worker memory limit: 1.33 GiB
+Distributing data time: 14.989940881729126
+Execution time: 7.856528043746948
+Get table content time: 0.06310200691223145
+Get table content time: 6.807129144668579
+Get table content time: 6.277817964553833
+Get table content time: 5.557353973388672
+Get table content time: 7.457112789154053
+Get table content time: 6.4516918659210205
+Get table content time: 6.408077001571655
+Get table content time: 6.366199016571045
+Get table content time: 7.325905084609985
+Get table content time: 7.415076971054077
+Get table content time: 6.993412017822266
+Get table content time: 6.4681479930877686
+Get table content time: 7.212688207626343

@@ -1,0 +1,102 @@
+<<<<<<< HEAD
+Distributing data time: 0.6460361480712891
+Get table content time: 0.4122281074523926
+Execution time: 0.41559505462646484
+=======
+distributed.nanny - ERROR - Failed to start worker
+Traceback (most recent call last):
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/nanny.py", line 878, in run
+    await worker
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/core.py", line 297, in _
+    await self.start()
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/worker.py", line 1548, in start
+    self.start_http_server(routes, self._dashboard_address)
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/node.py", line 161, in start_http_server
+    self.http_server.listen(**tlz.merge(http_address, {"port": 0}))
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/tornado/tcpserver.py", line 183, in listen
+    sockets = bind_sockets(
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/tornado/netutil.py", line 162, in bind_sockets
+    sock.bind(sockaddr)
+OSError: [Errno 48] Address already in use
+distributed.nanny - ERROR - Failed while trying to start worker process: [Errno 48] Address already in use
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-mpat2owo', purging
+Task exception was never retrieved
+future: <Task finished name='Task-23' coro=<_wrap_awaitable() done, defined at /Users/eve/opt/anaconda3/envs/forms/lib/python3.10/asyncio/tasks.py:643> exception=OSError(48, 'Address already in use')>
+Traceback (most recent call last):
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/asyncio/tasks.py", line 650, in _wrap_awaitable
+    return (yield from awaitable.__await__())
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/core.py", line 297, in _
+    await self.start()
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/nanny.py", line 334, in start
+    response = await self.instantiate()
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/nanny.py", line 417, in instantiate
+    result = await self.process.start()
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/nanny.py", line 694, in start
+    msg = await self._wait_until_connected(uid)
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/nanny.py", line 812, in _wait_until_connected
+    raise msg["exception"]
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/nanny.py", line 878, in run
+    await worker
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/core.py", line 297, in _
+    await self.start()
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/worker.py", line 1548, in start
+    self.start_http_server(routes, self._dashboard_address)
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/node.py", line 161, in start_http_server
+    self.http_server.listen(**tlz.merge(http_address, {"port": 0}))
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/tornado/tcpserver.py", line 183, in listen
+    sockets = bind_sockets(
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/tornado/netutil.py", line 162, in bind_sockets
+    sock.bind(sockaddr)
+OSError: [Errno 48] Address already in use
+Distributing data time: 0.609187126159668
+submit_one_func 0.2116408348083496
+submit_one_func 0.0007538795471191406
+submit_one_func 0.0005261898040771484
+submit_one_func 0.0005011558532714844
+submit_one_func 0.0005018711090087891
+submit_one_func 0.0004918575286865234
+submit_one_func 0.0005369186401367188
+submit_one_func 0.0005826950073242188
+submit_one_func 0.0028438568115234375
+submit_one_func 0.002263784408569336
+submit_one_func 0.0004930496215820312
+submit_one_func 0.00047397613525390625
+submit_one_func 0.0016140937805175781
+submit_one_func 0.0012369155883789062
+submit_one_func 0.0015840530395507812
+submit_one_func 0.0008628368377685547
+submit_one_func 0.0012898445129394531
+submit_one_func 0.0009958744049072266
+submit_one_func 0.0019500255584716797
+submit_one_func 0.0007011890411376953
+submit_one_func 0.0009059906005859375
+submit_one_func 0.0006978511810302734
+submit_one_func 0.001306772232055664
+submit_one_func 0.0010459423065185547
+Execution time: 0.6657178401947021
+Get table content time: 0.04127931594848633
+Get table content time: 0.12856507301330566
+Get table content time: 0.11015820503234863
+Get table content time: 0.17678117752075195
+Get table content time: 0.10053586959838867
+Get table content time: 0.15296220779418945
+Get table content time: 0.11536478996276855
+Get table content time: 0.1586909294128418
+Get table content time: 0.09157395362854004
+Get table content time: 0.13086962699890137
+Get table content time: 0.11333489418029785
+Get table content time: 0.23573803901672363
+Get table content time: 0.08256888389587402
+Get table content time: 0.11405515670776367
+Get table content time: 0.11482691764831543
+Get table content time: 0.16424107551574707
+Get table content time: 0.10122108459472656
+Get table content time: 0.1266932487487793
+Get table content time: 0.11142706871032715
+Get table content time: 0.13785290718078613
+Get table content time: 0.09121203422546387
+Get table content time: 0.15280890464782715
+Get table content time: 0.10744595527648926
+Get table content time: 0.12991809844970703
+Get table content time: 0.10968804359436035
+>>>>>>> df919a2c2abd8825d2dfa1628ca8da49051bf6c3

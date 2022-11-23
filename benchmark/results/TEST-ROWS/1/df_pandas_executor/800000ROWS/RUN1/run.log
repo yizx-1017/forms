@@ -1,0 +1,19 @@
+/Users/eve/Desktop/S/6.5/forms/benchmark/test_driver.py:34: DtypeWarning: Columns (19,21) have mixed types. Specify dtype option on import or set low_memory=False.
+  df = pd.read_csv(filepath)
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-ubw_cf3j', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-lffms5vy', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-kh4hfvv7', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-gb18_3li', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-thvpex6f', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-hior0i5z', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-n00ugqwk', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-715kbs20', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-jtzm1yxm', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-x847_d23', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-wazon3tr', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-zb6d6h67', purging
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Restarting worker
+Distributing data time: 35.926276206970215
+/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 72 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

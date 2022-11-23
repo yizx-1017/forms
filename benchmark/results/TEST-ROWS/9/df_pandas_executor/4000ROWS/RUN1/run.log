@@ -1,0 +1,91 @@
+<<<<<<< HEAD
+Distributing data time: 2.4609060287475586
+Get table content time: 0.6980390548706055
+Execution time: 1.849919080734253
+=======
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: invalid value encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: divide by zero encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/numpy/polynomial/polynomial.py:754: RuntimeWarning: invalid value encountered in double_scalars
+  c0 = c[-1] + x*0
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: invalid value encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:778: RuntimeWarning: divide by zero encountered in double_scalars
+  return 1 / x_new - 1
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: divide by zero encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/numpy/polynomial/polynomial.py:754: RuntimeWarning: invalid value encountered in double_scalars
+  c0 = c[-1] + x*0
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: divide by zero encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/numpy/polynomial/polynomial.py:754: RuntimeWarning: invalid value encountered in double_scalars
+  c0 = c[-1] + x*0
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: invalid value encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: divide by zero encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/numpy/polynomial/polynomial.py:754: RuntimeWarning: invalid value encountered in double_scalars
+  c0 = c[-1] + x*0
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: invalid value encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: divide by zero encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/numpy/polynomial/polynomial.py:754: RuntimeWarning: invalid value encountered in double_scalars
+  c0 = c[-1] + x*0
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: invalid value encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: invalid value encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: invalid value encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: divide by zero encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/numpy/polynomial/polynomial.py:754: RuntimeWarning: invalid value encountered in double_scalars
+  c0 = c[-1] + x*0
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: invalid value encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: divide by zero encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/numpy/polynomial/polynomial.py:754: RuntimeWarning: invalid value encountered in double_scalars
+  c0 = c[-1] + x*0
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: invalid value encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:778: RuntimeWarning: divide by zero encountered in double_scalars
+  return 1 / x_new - 1
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: divide by zero encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/numpy/polynomial/polynomial.py:754: RuntimeWarning: invalid value encountered in double_scalars
+  c0 = c[-1] + x*0
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: invalid value encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:778: RuntimeWarning: divide by zero encountered in double_scalars
+  return 1 / x_new - 1
+Distributing data time: 0.6269509792327881
+submit_one_func 0.2434678077697754
+submit_one_func 0.00127410888671875
+submit_one_func 0.000675201416015625
+submit_one_func 0.002621173858642578
+submit_one_func 0.001558065414428711
+submit_one_func 0.0009551048278808594
+submit_one_func 0.001277923583984375
+submit_one_func 0.0013871192932128906
+submit_one_func 0.0011928081512451172
+submit_one_func 0.0010743141174316406
+submit_one_func 0.003595113754272461
+submit_one_func 0.0018222332000732422
+Execution time: 0.8143630027770996
+Get table content time: 0.047036170959472656
+Get table content time: 0.1835801601409912
+Get table content time: 0.30698204040527344
+Get table content time: 0.2678871154785156
+Get table content time: 0.3024311065673828
+Get table content time: 0.29467129707336426
+Get table content time: 0.16178011894226074
+Get table content time: 0.17095565795898438
+Get table content time: 0.24258995056152344
+Get table content time: 0.1674799919128418
+Get table content time: 0.15689897537231445
+Get table content time: 0.27425408363342285
+Get table content time: 0.43639612197875977
+>>>>>>> df919a2c2abd8825d2dfa1628ca8da49051bf6c3

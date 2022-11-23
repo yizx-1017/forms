@@ -61,6 +61,7 @@ def config(
     enable_sumif_opt=forms_config.enable_sumif_opt,
     along_row_first=forms_config.along_row_first,
     partition_shape=forms_config.partition_shape,
+    synchronous=forms_config.synchronous,
 ):
     forms_config.cores = cores
     forms_config.scheduler = scheduler
@@ -73,6 +74,7 @@ def config(
     forms_config.enable_sumif_opt = enable_sumif_opt
     forms_config.along_row_first = along_row_first
     forms_config.partition_shape = partition_shape
+    forms_config.synchronous = synchronous
 
 
 def print_spreadsheet_view(df: pd.DataFrame, keep_original_labels=False):

@@ -1,0 +1,31 @@
+/Users/eve/Desktop/S/6.5/forms/benchmark/test_driver.py:34: DtypeWarning: Columns (19,21) have mixed types. Specify dtype option on import or set low_memory=False.
+  df = pd.read_csv(filepath)
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-1p5p2yyd', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-ywl68k1i', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-bdrw2pi_', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-tyi0kaqq', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-ytcn79zv', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-mexhasa1', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-7s491kl4', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-ehw3_zko', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-fj6b1b4j', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-78sk3cpu', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-pp299teo', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-an6zstfa', purging
+/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/contextlib.py:142: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+Distributing data time: 6.714941024780273
+Execution time: 0.7241411209106445
+Get table content time: 0.04356074333190918
+Get table content time: 0.4629631042480469
+Get table content time: 0.3220210075378418
+Get table content time: 0.29865097999572754
+Get table content time: 0.4618964195251465
+Get table content time: 0.3874378204345703
+Get table content time: 0.38065600395202637
+Get table content time: 0.3149869441986084
+Get table content time: 0.32212400436401367
+Get table content time: 0.36524009704589844
+Get table content time: 0.28874802589416504
+Get table content time: 0.4087800979614258
+Get table content time: 0.39168620109558105

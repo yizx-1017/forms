@@ -1,0 +1,57 @@
+<<<<<<< HEAD
+Distributing data time: 0.578894853591919
+Get table content time: 0.38147974014282227
+Execution time: 0.38450193405151367
+=======
+Distributing data time: 0.6106328964233398
+submit_one_func 0.21262574195861816
+submit_one_func 0.0006620883941650391
+submit_one_func 0.0009520053863525391
+submit_one_func 0.0008006095886230469
+submit_one_func 0.0011811256408691406
+submit_one_func 0.0008487701416015625
+submit_one_func 0.000637054443359375
+submit_one_func 0.000492095947265625
+submit_one_func 0.0006992816925048828
+submit_one_func 0.002228975296020508
+submit_one_func 0.0006289482116699219
+submit_one_func 0.0006608963012695312
+submit_one_func 0.0009620189666748047
+submit_one_func 0.0006079673767089844
+submit_one_func 0.0006878376007080078
+submit_one_func 0.0006337165832519531
+submit_one_func 0.0015418529510498047
+submit_one_func 0.0009720325469970703
+submit_one_func 0.0010528564453125
+submit_one_func 0.00203704833984375
+submit_one_func 0.000942230224609375
+submit_one_func 0.0005309581756591797
+submit_one_func 0.0010380744934082031
+submit_one_func 0.0010018348693847656
+Execution time: 0.6797699928283691
+Get table content time: 0.0402679443359375
+Get table content time: 0.2615540027618408
+Get table content time: 0.09243488311767578
+Get table content time: 0.12772703170776367
+Get table content time: 0.11537694931030273
+Get table content time: 0.1848912239074707
+Get table content time: 0.0932009220123291
+Get table content time: 0.12761378288269043
+Get table content time: 0.11705803871154785
+Get table content time: 0.16593313217163086
+Get table content time: 0.10934209823608398
+Get table content time: 0.14234590530395508
+Get table content time: 0.09587216377258301
+Get table content time: 0.15296411514282227
+Get table content time: 0.09953808784484863
+Get table content time: 0.12288713455200195
+Get table content time: 0.11293816566467285
+Get table content time: 0.19198894500732422
+Get table content time: 0.10269808769226074
+Get table content time: 0.16310906410217285
+Get table content time: 0.10655403137207031
+Get table content time: 0.14239096641540527
+Get table content time: 0.1136777400970459
+Get table content time: 0.17576289176940918
+Get table content time: 0.1008610725402832
+>>>>>>> df919a2c2abd8825d2dfa1628ca8da49051bf6c3

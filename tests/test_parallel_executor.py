@@ -52,3 +52,11 @@ def test_multiple_workers():
     expected_df = pd.DataFrame(np.full(100, 12.0))
     expected_df.iloc[98:100, 0] = np.NaN
     assert np.array_equal(computed_df.values, expected_df.values, equal_nan=True)
+
+
+def test_sychronize():
+    forms.config(synchronous=True)
+    computed_df = forms.compute_formula(df, "=SUM(A1:B3, A1:C2)")
+    expected_df = pd.DataFrame(np.full(100, 12.0))
+    expected_df.iloc[-2:, 0] = np.NaN
+    assert np.array_equal(computed_df.values, expected_df.values, equal_nan=True)

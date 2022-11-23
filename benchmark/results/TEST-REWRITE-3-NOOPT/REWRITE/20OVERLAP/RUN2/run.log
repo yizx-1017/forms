@@ -1,35 +1,19 @@
-Distributing data time: 4.888794660568237
-partitions: 0 8 0 0
-partitions: 8 16 0 0
-partitions: 16 23 0 0
-partitions: 23 31 0 0
-partitions: 31 40 0 0
-partitions: 40 48 0 0
-partitions: 48 56 0 0
-partitions: 56 64 0 0
-partitions: 64 72 0 0
-partitions: 72 80 0 0
-partitions: 80 88 0 0
-partitions: 88 96 0 0
-partitions: 96 104 0 0
-partitions: 104 112 0 0
-partitions: 112 120 0 0
-partitions: 120 127 0 0
-Execution time: 53.7689471244812
-Get table content time: 0.1896350383758545
-Get table content time: 0.4786412715911865
-Get table content time: 0.4521050453186035
-Get table content time: 0.5353953838348389
-Get table content time: 0.47012853622436523
-Get table content time: 0.5703446865081787
-Get table content time: 0.4226493835449219
-Get table content time: 0.49907708168029785
-Get table content time: 0.5286517143249512
-Get table content time: 0.4579930305480957
-Get table content time: 0.5685949325561523
-Get table content time: 0.6065611839294434
-Get table content time: 0.6277275085449219
-Get table content time: 0.4422135353088379
-Get table content time: 0.6045322418212891
-Get table content time: 0.5076971054077148
-Get table content time: 0.620063066482544
+Distributing data time: 0.9163458347320557
+Execution time: 7.9563751220703125
+Get table content time: 0.050765275955200195
+Get table content time: 0.10738968849182129
+Get table content time: 0.12410974502563477
+Get table content time: 0.11964011192321777
+Get table content time: 0.22848725318908691
+Get table content time: 0.38422060012817383
+Get table content time: 0.18701910972595215
+Get table content time: 0.3283553123474121
+Get table content time: 0.2640511989593506
+Get table content time: 0.1144113540649414
+Get table content time: 0.09948253631591797
+Get table content time: 0.13628005981445312
+Get table content time: 0.11086463928222656
+Get table content time: 0.11632680892944336
+Get table content time: 0.12691283226013184
+Get table content time: 0.11106657981872559
+Get table content time: 0.09050750732421875

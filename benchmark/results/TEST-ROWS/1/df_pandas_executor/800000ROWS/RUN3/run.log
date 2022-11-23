@@ -1,0 +1,50 @@
+/Users/eve/Desktop/S/6.5/forms/benchmark/test_driver.py:34: DtypeWarning: Columns (19,21) have mixed types. Specify dtype option on import or set low_memory=False.
+  df = pd.read_csv(filepath)
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-409j6n54', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-918ye3nm', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-nr3bbew_', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-lljvydbi', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-1zl6qpkn', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-xk8ki6w8', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-dgpr7qb6', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-qfeg4l2w', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-xsw74ygp', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-retbof4d', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-srxjx1tc', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-6zwuds80', purging
+/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/contextlib.py:142: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+Exception in thread Profile:
+Traceback (most recent call last):
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/profile.py", line 115, in process
+    d = state["children"][ident]
+KeyError: 'write;/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/comm/tcp.py;251'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/profile.py", line 274, in _watch
+    process(frame, None, recent, omit=omit)
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/profile.py", line 119, in process
+    "description": info_frame(frame),
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/profile.py", line 72, in info_frame
+    line = linecache.getline(co.co_filename, frame.f_lineno, frame.f_globals).lstrip()
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/linecache.py", line 31, in getline
+    if 1 <= lineno <= len(lines):
+TypeError: '<=' not supported between instances of 'int' and 'NoneType'
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Restarting worker
+Distributing data time: 33.072391986846924
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-jfopn_ih', purging
+/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/contextlib.py:142: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.nanny - WARNING - Restarting worker
+/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/contextlib.py:142: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 72 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

@@ -1,0 +1,38 @@
+{
+<<<<<<< HEAD
+    "timestamp": "2022-11-22 22:37:26.571172",
+    "cores": 1,
+    "scheduler": "simple",
+    "enable_logical_rewriting": false,
+    "enable_physical_opt": false,
+=======
+    "timestamp": "2022-11-11 15:59:18.818552",
+    "cores": 12,
+    "scheduler": "prioritized",
+    "enable_logical_rewriting": true,
+    "enable_physical_opt": true,
+>>>>>>> df919a2c2abd8825d2dfa1628ca8da49051bf6c3
+    "function_executor": "df_pandas_executor",
+    "cost_model": "loadbalance",
+    "enable_communication_opt": true,
+    "enable_sumif_opt": false,
+    "along_row_first": false,
+    "partition_shape": [
+        256,
+        1
+    ],
+    "row_num": 8000,
+    "filename": "weather.csv",
+    "formula_str": "=AVERAGE(I$1:I1)",
+<<<<<<< HEAD
+    "distributing_data_time_in_ms": 623.9149570465088,
+    "execution_time_in_ms": 882.9450607299805,
+    "planning_time_in_ms": 0,
+    "timecost_in_ms": 3076.6799449920654
+=======
+    "distributing_data_time_in_ms": 549.4701862335205,
+    "execution_time_in_ms": 674.0908622741699,
+    "planning_time_in_ms": 9.70911979675293,
+    "timecost_in_ms": 3831.2950134277344
+>>>>>>> df919a2c2abd8825d2dfa1628ca8da49051bf6c3
+}

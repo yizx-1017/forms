@@ -1,13 +1,13 @@
 #!/bin/bash
 
 declare -a RUN_OPTIONS=(1 2 3)
-declare -a ROWS_OPTIONS=(2000000 4000000 6000000 8000000 10000000)
+declare -a ROWS_OPTIONS=(2000 4000 6000 8000 10000)
 declare FILENAME='weather_10M.csv'
 declare CORES=16
 
 for ROWS in "${ROWS_OPTIONS[@]}"
   do
-  FORMULA_STR="=MEDIAN(E1:F\$${ROWS})"
+  FORMULA_STR="=IRR(E\$1:E1)"
 	for RUN in "${RUN_OPTIONS[@]}"
   do
     FILE_DIR="results/TEST-COSTMODEL/SIMPLE/${ROWS}ROWS/RUN${RUN}"

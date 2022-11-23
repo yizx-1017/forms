@@ -1,0 +1,50 @@
+/Users/eve/Desktop/S/6.5/forms/benchmark/test_driver.py:34: DtypeWarning: Columns (19,21) have mixed types. Specify dtype option on import or set low_memory=False.
+  df = pd.read_csv(filepath)
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-wf1re2dc', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-bch87566', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-41gjtr5v', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-wh1q2ohs', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-_plsq9en', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-c2w3xetl', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-p02nedbe', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-qtf6uwxu', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-eilixrjm', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-8wte_l9q', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-rts4mn6u', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-v3ac51x5', purging
+/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/contextlib.py:142: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.worker - WARNING - Worker is at 82% memory usage. Pausing worker.  Process memory: 1.09 GiB -- Worker memory limit: 1.33 GiB
+distributed.worker - WARNING - Worker is at 88% memory usage. Pausing worker.  Process memory: 1.18 GiB -- Worker memory limit: 1.33 GiB
+distributed.worker - WARNING - Worker is at 49% memory usage. Resuming worker. Process memory: 681.35 MiB -- Worker memory limit: 1.33 GiB
+distributed.nanny - WARNING - Restarting worker
+Distributing data time: 45.21692681312561
+distributed.worker - WARNING - Worker is at 86% memory usage. Pausing worker.  Process memory: 1.16 GiB -- Worker memory limit: 1.33 GiB
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.worker - WARNING - Worker is at 14% memory usage. Resuming worker. Process memory: 200.93 MiB -- Worker memory limit: 1.33 GiB
+distributed.scheduler - ERROR - Couldn't gather keys {'DataFrame-072e3223cc2a5cd167d0491f19bbfb5a': []} state: [None] workers: []
+NoneType: None
+distributed.scheduler - ERROR - Workers don't have promised key: [], DataFrame-072e3223cc2a5cd167d0491f19bbfb5a
+NoneType: None
+distributed.client - WARNING - Couldn't gather 1 keys, rescheduling {'DataFrame-072e3223cc2a5cd167d0491f19bbfb5a': ()}
+distributed.nanny - WARNING - Restarting worker
+distributed.worker - WARNING - Compute Failed
+Function:  execute_one_subtree
+args:      (<forms.executor.executionnode.FunctionExecutionNode object at 0x7ff242259bd0>)
+kwargs:    {}
+Exception: "CancelledError('DataFrame-072e3223cc2a5cd167d0491f19bbfb5a')"
+
+distributed.worker - WARNING - Compute Failed
+Function:  execute_one_subtree
+args:      (<forms.executor.executionnode.FunctionExecutionNode object at 0x7f8edfa4dcf0>)
+kwargs:    {}
+Exception: "CancelledError('DataFrame-ae93ab2b30a2b98cc656b6fbd4394b15')"
+
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Restarting worker
+/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 72 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

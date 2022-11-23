@@ -1,0 +1,17 @@
+/Users/eve/Desktop/S/6.5/forms/benchmark/test_driver.py:34: DtypeWarning: Columns (19,21) have mixed types. Specify dtype option on import or set low_memory=False.
+  df = pd.read_csv(filepath)
+Distributing data time: 10.061372995376587
+Execution time: 2.8355250358581543
+Get table content time: 0.05414414405822754
+Get table content time: 2.4213979244232178
+Get table content time: 2.563814878463745
+Get table content time: 2.5820679664611816
+Get table content time: 2.5774359703063965
+Get table content time: 2.5708301067352295
+Get table content time: 2.576641798019409
+Get table content time: 2.560084104537964
+Get table content time: 1.7549080848693848
+Get table content time: 2.5560390949249268
+Get table content time: 2.4952189922332764
+Get table content time: 2.5828866958618164
+Get table content time: 2.274235963821411

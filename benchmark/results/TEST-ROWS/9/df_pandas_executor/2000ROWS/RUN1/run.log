@@ -1,0 +1,63 @@
+<<<<<<< HEAD
+Distributing data time: 0.5846819877624512
+Get table content time: 0.39557719230651855
+Execution time: 0.6812918186187744
+=======
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: invalid value encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: invalid value encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: divide by zero encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/numpy/polynomial/polynomial.py:754: RuntimeWarning: invalid value encountered in double_scalars
+  c0 = c[-1] + x*0
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: invalid value encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: invalid value encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: divide by zero encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/numpy/polynomial/polynomial.py:754: RuntimeWarning: invalid value encountered in double_scalars
+  c0 = c[-1] + x*0
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: invalid value encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:778: RuntimeWarning: divide by zero encountered in double_scalars
+  return 1 / x_new - 1
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: divide by zero encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/numpy/polynomial/polynomial.py:754: RuntimeWarning: invalid value encountered in double_scalars
+  c0 = c[-1] + x*0
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: divide by zero encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/numpy/polynomial/polynomial.py:754: RuntimeWarning: invalid value encountered in double_scalars
+  c0 = c[-1] + x*0
+/Users/eve/Desktop/S/6.5/numpy-financial/numpy_financial/_financial.py:776: RuntimeWarning: invalid value encountered in double_scalars
+  x_new = x - (npv_(x) / d_npv(x))
+Distributing data time: 0.7311410903930664
+submit_one_func 0.28984785079956055
+submit_one_func 0.0010368824005126953
+submit_one_func 0.0010919570922851562
+submit_one_func 0.001280069351196289
+submit_one_func 0.0009052753448486328
+submit_one_func 0.000885009765625
+submit_one_func 0.0012879371643066406
+submit_one_func 0.003350973129272461
+submit_one_func 0.0013759136199951172
+submit_one_func 0.003000020980834961
+submit_one_func 0.001132965087890625
+submit_one_func 0.0029218196868896484
+Execution time: 0.7418653964996338
+Get table content time: 0.03658604621887207
+Get table content time: 0.25573110580444336
+Get table content time: 0.25026917457580566
+Get table content time: 0.2940819263458252
+Get table content time: 0.34403300285339355
+Get table content time: 0.24703001976013184
+Get table content time: 0.24716591835021973
+Get table content time: 0.34078216552734375
+Get table content time: 0.2488551139831543
+Get table content time: 0.35101985931396484
+Get table content time: 0.3625526428222656
+Get table content time: 0.24920296669006348
+Get table content time: 0.2546231746673584
+>>>>>>> df919a2c2abd8825d2dfa1628ca8da49051bf6c3

@@ -1,0 +1,36 @@
+<<<<<<< HEAD
+Distributing data time: 0.8882408142089844
+--get table from remote df--
+Get table content time: 0.607269287109375
+--get table from remote df--
+0.007060050964355469
+Execution time: 0.615048885345459
+=======
+Distributing data time: 0.6307840347290039
+submit_one_func 0.21438002586364746
+submit_one_func 0.0012729167938232422
+submit_one_func 0.0005550384521484375
+submit_one_func 0.0010497570037841797
+submit_one_func 0.0007081031799316406
+submit_one_func 0.0006060600280761719
+submit_one_func 0.0006659030914306641
+submit_one_func 0.0020368099212646484
+submit_one_func 0.0009098052978515625
+submit_one_func 0.0017828941345214844
+submit_one_func 0.0006949901580810547
+submit_one_func 0.0006749629974365234
+Execution time: 0.48616790771484375
+Get table content time: 0.04168701171875
+Get table content time: 0.20334315299987793
+Get table content time: 0.1878049373626709
+Get table content time: 0.20737409591674805
+Get table content time: 0.21158981323242188
+Get table content time: 0.2085869312286377
+Get table content time: 0.2224891185760498
+Get table content time: 0.1934070587158203
+Get table content time: 0.22209596633911133
+Get table content time: 0.22010087966918945
+Get table content time: 0.21546196937561035
+Get table content time: 0.21170902252197266
+Get table content time: 0.20813608169555664
+>>>>>>> df919a2c2abd8825d2dfa1628ca8da49051bf6c3

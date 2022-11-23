@@ -1,0 +1,53 @@
+<<<<<<< HEAD
+Traceback (most recent call last):
+  File "/Users/eve/Desktop/S/6.5/forms/benchmark/test_driver.py", line 8, in <module>
+    import forms as fs
+  File "/Users/eve/Desktop/S/6.5/forms/forms/__init__.py", line 17, in <module>
+    from forms.core.forms import compute_formula, config, print_spreadsheet_view
+  File "/Users/eve/Desktop/S/6.5/forms/forms/core/forms.py", line 27, in <module>
+    from forms.utils.executors import create_executor_by_name
+  File "/Users/eve/Desktop/S/6.5/forms/forms/utils/executors.py", line 16, in <module>
+    from forms.executor.dfexecutor.planexecutor import DFPlanExecutor
+  File "/Users/eve/Desktop/S/6.5/forms/forms/executor/dfexecutor/planexecutor.py", line 24, in <module>
+    from forms.executor.planexecutor import PlanExecutor
+  File "/Users/eve/Desktop/S/6.5/forms/forms/executor/planexecutor.py", line 21, in <module>
+    from forms.scheduler.utils import create_scheduler_by_name
+  File "/Users/eve/Desktop/S/6.5/forms/forms/scheduler/utils.py", line 19, in <module>
+    from forms.scheduler.dfscheduler.dfscheduler import DFSimpleScheduler, PrioritizedScheduler
+  File "/Users/eve/Desktop/S/6.5/forms/forms/scheduler/dfscheduler/dfscheduler.py", line 20, in <module>
+    from forms.scheduler.dfscheduler.phase import create_phase_by_name
+  File "/Users/eve/Desktop/S/6.5/forms/forms/scheduler/dfscheduler/phase.py", line 21, in <module>
+    from forms.executor.dfexecutor.utils import remote_access_planning
+  File "/Users/eve/Desktop/S/6.5/forms/forms/executor/dfexecutor/utils.py", line 229
+    start_idx =
+               ^
+SyntaxError: invalid syntax
+=======
+Distributing data time: 0.673799991607666
+submit_one_func 0.25507283210754395
+submit_one_func 0.001199960708618164
+submit_one_func 0.0013339519500732422
+submit_one_func 0.0015821456909179688
+submit_one_func 0.0009870529174804688
+submit_one_func 0.0010409355163574219
+submit_one_func 0.0014069080352783203
+submit_one_func 0.0014078617095947266
+submit_one_func 0.0014939308166503906
+submit_one_func 0.001580953598022461
+submit_one_func 0.0016779899597167969
+submit_one_func 0.0014410018920898438
+Execution time: 7.344964981079102
+Get table content time: 0.03915905952453613
+Get table content time: 1.9426720142364502
+Get table content time: 3.487516164779663
+Get table content time: 2.7625348567962646
+Get table content time: 4.541375160217285
+Get table content time: 0.40048694610595703
+Get table content time: 4.668352127075195
+Get table content time: 1.8137078285217285
+Get table content time: 0.6389811038970947
+Get table content time: 4.7261059284210205
+Get table content time: 3.3021481037139893
+Get table content time: 1.8482728004455566
+Get table content time: 4.315712928771973
+>>>>>>> df919a2c2abd8825d2dfa1628ca8da49051bf6c3

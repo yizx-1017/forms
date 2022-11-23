@@ -1,35 +1,19 @@
-Distributing data time: 4.915297031402588
-partitions: 0 8 0 0
-partitions: 8 16 0 0
-partitions: 16 24 0 0
-partitions: 23 32 0 0
-partitions: 31 40 0 0
-partitions: 40 48 0 0
-partitions: 48 56 0 0
-partitions: 56 64 0 0
-partitions: 64 72 0 0
-partitions: 72 80 0 0
-partitions: 80 88 0 0
-partitions: 88 96 0 0
-partitions: 96 104 0 0
-partitions: 104 112 0 0
-partitions: 112 120 0 0
-partitions: 120 127 0 0
-Execution time: 54.16982126235962
-Get table content time: 0.19038152694702148
-Get table content time: 0.4859659671783447
-Get table content time: 0.5616445541381836
-Get table content time: 0.6075403690338135
-Get table content time: 0.4419519901275635
-Get table content time: 0.5179855823516846
-Get table content time: 0.49499988555908203
-Get table content time: 0.7762949466705322
-Get table content time: 0.458942174911499
-Get table content time: 0.5130720138549805
-Get table content time: 0.5550401210784912
-Get table content time: 0.4205002784729004
-Get table content time: 0.7438380718231201
-Get table content time: 0.7289462089538574
-Get table content time: 0.5030274391174316
-Get table content time: 0.5082099437713623
-Get table content time: 0.5932941436767578
+Distributing data time: 0.9079556465148926
+Execution time: 9.23618197441101
+Get table content time: 0.046311140060424805
+Get table content time: 0.12051868438720703
+Get table content time: 0.13052606582641602
+Get table content time: 0.12699151039123535
+Get table content time: 0.19132685661315918
+Get table content time: 0.1352534294128418
+Get table content time: 0.22203922271728516
+Get table content time: 0.20671987533569336
+Get table content time: 0.11775636672973633
+Get table content time: 0.5637867450714111
+Get table content time: 0.11826395988464355
+Get table content time: 0.3261871337890625
+Get table content time: 0.12414073944091797
+Get table content time: 0.12154674530029297
+Get table content time: 0.12122201919555664
+Get table content time: 0.10401630401611328
+Get table content time: 0.2327260971069336

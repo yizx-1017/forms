@@ -26,6 +26,7 @@ class FormSConfig:
         self.enable_sumif_opt = False
         self.along_row_first = False
         self.partition_shape = (1, 1)
+        self.synchronous = False
 
 
 forms_config = FormSConfig()

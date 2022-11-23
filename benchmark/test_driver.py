@@ -34,6 +34,7 @@ if __name__ == "__main__":
     df = pd.read_csv(filepath)
     if args.row_num:
         df = df.iloc[0 : args.row_num]
+    df.iloc[:, 4] = [20 * (i + 1) for i in range(len(df))]
     fs.config(
         cores=args.cores,
         scheduler=args.scheduler,

@@ -14,6 +14,8 @@
 
 from abc import abstractmethod, ABC
 from enum import Enum, auto
+from time import time
+
 from dask.distributed import Client
 from forms.core.config import FormSConfig
 from forms.runtime.remoteobject import RemoteObject, DaskObject
@@ -47,7 +49,10 @@ class DaskRuntime(BaseRuntime):
         return DaskObject(self.client.scatter([data], broadcast=self.broadcast)[0])
 
     def submit_one_func(self, func, *args) -> RemoteObject:
-        return DaskObject(self.client.submit(func, *args))
+        start = time()
+        res = DaskObject(self.client.submit(func, *args))
+        print("submit_one_func", time() - start)
+        return res
 
     def shut_down(self):
         self.client.close()

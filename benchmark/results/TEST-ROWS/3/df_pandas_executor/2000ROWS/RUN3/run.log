@@ -1,0 +1,33 @@
+<<<<<<< HEAD
+Distributing data time: 0.5892200469970703
+Get table content time: 0.3667409420013428
+Execution time: 0.3746809959411621
+=======
+Distributing data time: 0.6064498424530029
+submit_one_func 0.20864582061767578
+submit_one_func 0.0007040500640869141
+submit_one_func 0.0010542869567871094
+submit_one_func 0.0011000633239746094
+submit_one_func 0.0008599758148193359
+submit_one_func 0.0006000995635986328
+submit_one_func 0.0005319118499755859
+submit_one_func 0.0006279945373535156
+submit_one_func 0.0006699562072753906
+submit_one_func 0.0008020401000976562
+submit_one_func 0.0008869171142578125
+submit_one_func 0.0006520748138427734
+Execution time: 0.4620668888092041
+Get table content time: 0.03587460517883301
+Get table content time: 0.20934295654296875
+Get table content time: 0.19472479820251465
+Get table content time: 0.21238994598388672
+Get table content time: 0.19198393821716309
+Get table content time: 0.20872712135314941
+Get table content time: 0.18586277961730957
+Get table content time: 0.15549778938293457
+Get table content time: 0.21297597885131836
+Get table content time: 0.17449283599853516
+Get table content time: 0.18871307373046875
+Get table content time: 0.18653202056884766
+Get table content time: 0.1859722137451172
+>>>>>>> df919a2c2abd8825d2dfa1628ca8da49051bf6c3

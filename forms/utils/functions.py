@@ -34,6 +34,7 @@ class Function(Enum):
     SUMIF = "sumif"
     COUNTIF = "countif"
     AVERAGEIF = "averageif"
+    IRR = "irr"
 
     # Text Functions
     CONCAT = "concat"
@@ -143,6 +144,8 @@ pandas_supported_functions = {
     Function.AVG,
     Function.MEDIAN,
     Function.SUMIF,
+    # Financial functions
+    Function.IRR,
     # Text Functions
     Function.CONCAT,
     Function.CONCATENATE,

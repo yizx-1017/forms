@@ -14,6 +14,7 @@
 import math
 import numpy as np
 import pandas as pd
+import numpy_financial as npf
 
 from forms.executor.table import DFTable
 from forms.executor.executionnode import FunctionExecutionNode, RefExecutionNode, LitExecutionNode
@@ -213,21 +214,33 @@ def sumif_df_executor(physical_subtree: FunctionExecutionNode) -> DFTable:
         results = []
         df = ref_node.table.get_table_content()
         for idx in range(start_idx, end_idx):
-            value = None
             axis = ref_node.exec_context.axis
-            index = (
-                idx - start_idx
-                if start_idx == 0 or ref_node.exec_context.enable_communication_opt
-                else idx
-            )  # check intermediate node
             # TODO: add support for axis_along_column
             if axis == axis_along_row:
-                indices = get_reference_indices_for_single_index(ref_node, index)
+                result = np.nan
+                indices = get_reference_indices_for_single_index(ref_node, idx)
                 if indices is not None:
                     start_row, start_column, end_row, end_column = indices
-                    value = df.iloc[start_row:end_row, start_column:end_column]
-                    value = value.to_numpy()
-                result = np.nan if value is None else np.sum(operator_dict[op](value, val) * value)
+                    values = df.iloc[start_row:end_row, start_column:end_column].values.reshape(
+                        -1,
+                    )
+                    if values is None:
+                        result = np.nan
+                    else:
+                        vals_after_if = []
+                        for value in values:
+                            if op == "=":
+                                val_after_if = value if value == val else 0
+                            elif op == "<":
+                                val_after_if = value if value < val else 0
+                            elif op == ">":
+                                val_after_if = value if value > val else 0
+                            elif op == "<=":
+                                val_after_if = value if value <= val else 0
+                            elif op == ">=":
+                                val_after_if = value if value >= val else 0
+                            vals_after_if.append(val_after_if)
+                        result = sum(vals_after_if)
                 results.append(result)
         return construct_df_table(results)
     else:
@@ -282,6 +295,29 @@ def multiply_df_executor(physical_subtree: FunctionExecutionNode) -> DFTable:
 def divide_df_executor(physical_subtree: FunctionExecutionNode) -> DFTable:
     values = get_arithmetic_function_values(physical_subtree)
     return construct_df_table(values[0] / values[1])
+
+
+def irr_df_executor(physical_subtree: FunctionExecutionNode) -> DFTable:
+    assert len(physical_subtree.children) == 1
+    ref_node = physical_subtree.children[0]
+    assert isinstance(ref_node, RefExecutionNode)
+    start_idx = ref_node.exec_context.start_formula_idx
+    end_idx = ref_node.exec_context.end_formula_idx
+    results = []
+    df = ref_node.table.get_table_content()
+    for idx in range(start_idx, end_idx):
+        value = None
+        axis = ref_node.exec_context.axis
+        # TODO: add support for axis_along_column
+        if axis == axis_along_row:
+            indices = get_reference_indices_for_single_index(ref_node, idx)
+            if indices is not None:
+                start_row, start_column, end_row, end_column = indices
+                value = df.iloc[start_row:end_row, start_column:end_column]
+                value = value.values.flatten()
+            result = np.nan if value is None else npf.irr(value, tol=1e-7, maxiter=20)
+            results.append(result)
+    return construct_df_table(results)
 
 
 def compute_max(values, literal):
@@ -471,6 +507,7 @@ function_to_executor_dict = {
     Function.MINUS: minus_df_executor,
     Function.MULTIPLY: multiply_df_executor,
     Function.DIVIDE: divide_df_executor,
+    Function.IRR: irr_df_executor,
     # Text functions
     Function.CONCAT: concat_executor,
     Function.CONCATENATE: concatenate_executor,

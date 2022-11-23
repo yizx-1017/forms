@@ -1,0 +1,123 @@
+<<<<<<< HEAD
+Distributing data time: 0.8398458957672119
+Get table content time: 0.37732625007629395
+Execution time: 0.38025879859924316
+=======
+distributed.nanny - ERROR - Failed to start worker
+Traceback (most recent call last):
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/nanny.py", line 878, in run
+    await worker
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/core.py", line 297, in _
+    await self.start()
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/worker.py", line 1548, in start
+    self.start_http_server(routes, self._dashboard_address)
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/node.py", line 161, in start_http_server
+    self.http_server.listen(**tlz.merge(http_address, {"port": 0}))
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/tornado/tcpserver.py", line 183, in listen
+    sockets = bind_sockets(
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/tornado/netutil.py", line 162, in bind_sockets
+    sock.bind(sockaddr)
+OSError: [Errno 48] Address already in use
+distributed.nanny - ERROR - Failed to start worker
+Traceback (most recent call last):
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/nanny.py", line 878, in run
+    await worker
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/core.py", line 297, in _
+    await self.start()
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/worker.py", line 1548, in start
+    self.start_http_server(routes, self._dashboard_address)
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/node.py", line 161, in start_http_server
+    self.http_server.listen(**tlz.merge(http_address, {"port": 0}))
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/tornado/tcpserver.py", line 183, in listen
+    sockets = bind_sockets(
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/tornado/netutil.py", line 162, in bind_sockets
+    sock.bind(sockaddr)
+OSError: [Errno 48] Address already in use
+distributed.nanny - ERROR - Failed while trying to start worker process: [Errno 48] Address already in use
+distributed.nanny - ERROR - Failed while trying to start worker process: [Errno 48] Address already in use
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-ypyv6rf5', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/Users/eve/Desktop/S/6.5/forms/benchmark/dask-worker-space/worker-eqjxn800', purging
+Task exception was never retrieved
+future: <Task finished name='Task-24' coro=<_wrap_awaitable() done, defined at /Users/eve/opt/anaconda3/envs/forms/lib/python3.10/asyncio/tasks.py:643> exception=OSError(48, 'Address already in use')>
+Traceback (most recent call last):
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/asyncio/tasks.py", line 650, in _wrap_awaitable
+    return (yield from awaitable.__await__())
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/core.py", line 297, in _
+    await self.start()
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/nanny.py", line 334, in start
+    response = await self.instantiate()
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/nanny.py", line 417, in instantiate
+    result = await self.process.start()
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/nanny.py", line 694, in start
+    msg = await self._wait_until_connected(uid)
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/nanny.py", line 812, in _wait_until_connected
+    raise msg["exception"]
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/nanny.py", line 878, in run
+    await worker
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/core.py", line 297, in _
+    await self.start()
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/worker.py", line 1548, in start
+    self.start_http_server(routes, self._dashboard_address)
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/node.py", line 161, in start_http_server
+    self.http_server.listen(**tlz.merge(http_address, {"port": 0}))
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/tornado/tcpserver.py", line 183, in listen
+    sockets = bind_sockets(
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/tornado/netutil.py", line 162, in bind_sockets
+    sock.bind(sockaddr)
+OSError: [Errno 48] Address already in use
+Task exception was never retrieved
+future: <Task finished name='Task-21' coro=<_wrap_awaitable() done, defined at /Users/eve/opt/anaconda3/envs/forms/lib/python3.10/asyncio/tasks.py:643> exception=OSError(48, 'Address already in use')>
+Traceback (most recent call last):
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/asyncio/tasks.py", line 650, in _wrap_awaitable
+    return (yield from awaitable.__await__())
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/core.py", line 297, in _
+    await self.start()
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/nanny.py", line 334, in start
+    response = await self.instantiate()
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/nanny.py", line 417, in instantiate
+    result = await self.process.start()
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/nanny.py", line 694, in start
+    msg = await self._wait_until_connected(uid)
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/nanny.py", line 812, in _wait_until_connected
+    raise msg["exception"]
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/nanny.py", line 878, in run
+    await worker
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/core.py", line 297, in _
+    await self.start()
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/worker.py", line 1548, in start
+    self.start_http_server(routes, self._dashboard_address)
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/distributed/node.py", line 161, in start_http_server
+    self.http_server.listen(**tlz.merge(http_address, {"port": 0}))
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/tornado/tcpserver.py", line 183, in listen
+    sockets = bind_sockets(
+  File "/Users/eve/opt/anaconda3/envs/forms/lib/python3.10/site-packages/tornado/netutil.py", line 162, in bind_sockets
+    sock.bind(sockaddr)
+OSError: [Errno 48] Address already in use
+Distributing data time: 0.6152920722961426
+submit_one_func 0.23182916641235352
+submit_one_func 0.0011258125305175781
+submit_one_func 0.0010128021240234375
+submit_one_func 0.0010859966278076172
+submit_one_func 0.0011992454528808594
+submit_one_func 0.001177072525024414
+submit_one_func 0.004397869110107422
+submit_one_func 0.0018911361694335938
+submit_one_func 0.0014197826385498047
+submit_one_func 0.0018298625946044922
+submit_one_func 0.002644062042236328
+submit_one_func 0.005596160888671875
+Execution time: 1.2221100330352783
+Get table content time: 0.0411989688873291
+Get table content time: 0.5058281421661377
+Get table content time: 0.42093896865844727
+Get table content time: 0.6013257503509521
+Get table content time: 0.9108607769012451
+Get table content time: 0.8684749603271484
+Get table content time: 0.889246940612793
+Get table content time: 0.6639869213104248
+Get table content time: 0.7131707668304443
+Get table content time: 0.79886794090271
+Get table content time: 0.7601649761199951
+Get table content time: 0.9046149253845215
+Get table content time: 0.8442518711090088
+>>>>>>> df919a2c2abd8825d2dfa1628ca8da49051bf6c3
