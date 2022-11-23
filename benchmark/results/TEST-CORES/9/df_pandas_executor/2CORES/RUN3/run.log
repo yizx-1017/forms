@@ -1,7 +1,10 @@
-Distributing data time: 4.6484363079071045
-partitions: 0 64 0 0
-partitions: 64 127 0 0
-Execution time: 2.7741446495056152
-Get table content time: 0.18908071517944336
-Get table content time: 2.214931011199951
-Get table content time: 2.210042953491211
+Traceback (most recent call last):
+  File "/home/ubuntu/db/forms/forms/core/forms.py", line 36, in compute_formula
+    root.validate(forms_config)
+  File "/home/ubuntu/db/forms/forms/planner/plannode.py", line 129, in validate
+    raise FunctionNotSupportedException(
+forms.utils.exceptions.FunctionNotSupportedException: Function Function.IRR does not support SUMIF optimization
+Traceback (most recent call last):
+  File "/home/ubuntu/db/forms/benchmark/test_driver.py", line 69, in <module>
+    "distributing_data_time_in_ms": metrics["distributing_data_time"] * 1000,
+KeyError: 'distributing_data_time'

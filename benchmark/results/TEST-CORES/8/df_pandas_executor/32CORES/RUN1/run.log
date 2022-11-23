@@ -193,3 +193,5 @@ args:      (<forms.executor.executionnode.FunctionExecutionNode object at 0x7f5b
 kwargs:    {}
 Exception: "CancelledError('DataFrame-7cac0bb5637259c274828e64c365c64d')"
 
+/usr/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 192 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
