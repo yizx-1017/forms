@@ -1,13 +1,11 @@
-2022-11-23 11:19:53,091 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-l3y_aclw', purging
-2022-11-23 11:19:53,091 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-es_qrwwy', purging
-Distributing data time: 4.632238149642944
-submit_one_func 0.06263351440429688
-submit_one_func 0.0007865428924560547
-submit_one_func 0.0010836124420166016
-submit_one_func 0.0006847381591796875
-Execution time: 269.419899225235
-Get table content time: 0.17907452583312988
-Get table content time: 1.390676498413086
-Get table content time: 1.512202262878418
-Get table content time: 1.4987189769744873
-Get table content time: 1.4880328178405762
+Distributing data time: 4.606387138366699
+submit_one_func 0.05612444877624512
+submit_one_func 0.0007479190826416016
+submit_one_func 0.0006508827209472656
+submit_one_func 0.0006480216979980469
+Execution time: 1.9383032321929932
+Get table content time: 0.17766880989074707
+Get table content time: 1.609217882156372
+Get table content time: 1.4521980285644531
+Get table content time: 1.5073812007904053
+Get table content time: 1.3810367584228516

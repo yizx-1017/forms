@@ -1,10 +1,90 @@
+2022-11-23 14:44:38,910 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-1kdrk3k_', purging
+2022-11-23 14:44:38,910 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-158f324j', purging
+2022-11-23 14:46:48,322 - distributed.worker - ERROR - Timed out during handshake while connecting to tcp://127.0.0.1:39759 after 30 s
 Traceback (most recent call last):
-  File "/home/ubuntu/db/forms/forms/core/forms.py", line 36, in compute_formula
-    root.validate(forms_config)
-  File "/home/ubuntu/db/forms/forms/planner/plannode.py", line 129, in validate
-    raise FunctionNotSupportedException(
-forms.utils.exceptions.FunctionNotSupportedException: Function Function.IRR does not support SUMIF optimization
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 266, in write
+    async def write(self, msg, serializers=None, on_error="message"):
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
 Traceback (most recent call last):
-  File "/home/ubuntu/db/forms/benchmark/test_driver.py", line 69, in <module>
-    "distributing_data_time_in_ms": metrics["distributing_data_time"] * 1000,
-KeyError: 'distributing_data_time'
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 418, in wait_for
+    return fut.result()
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/comm/core.py", line 329, in connect
+    await asyncio.wait_for(comm.write(local_info), time_left())
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 420, in wait_for
+    raise exceptions.TimeoutError() from exc
+asyncio.exceptions.TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/worker.py", line 1205, in heartbeat
+    response = await retry_operation(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/utils_comm.py", line 383, in retry_operation
+    return await retry(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/utils_comm.py", line 368, in retry
+    return await coro()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/core.py", line 1151, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/core.py", line 1372, in connect
+    return await connect_attempt
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/core.py", line 1308, in _connect
+    comm = await connect(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/comm/core.py", line 333, in connect
+    raise OSError(
+OSError: Timed out during handshake while connecting to tcp://127.0.0.1:39759 after 30 s
+2022-11-23 14:46:48,530 - tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x7f2acbd4b520>>, <Task finished name='Task-337' coro=<Worker.heartbeat() done, defined at /home/ubuntu/.local/lib/python3.10/site-packages/distributed/worker.py:1197> exception=OSError('Timed out during handshake while connecting to tcp://127.0.0.1:39759 after 30 s')>)
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 266, in write
+    async def write(self, msg, serializers=None, on_error="message"):
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 418, in wait_for
+    return fut.result()
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/comm/core.py", line 329, in connect
+    await asyncio.wait_for(comm.write(local_info), time_left())
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 420, in wait_for
+    raise exceptions.TimeoutError() from exc
+asyncio.exceptions.TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/worker.py", line 1251, in heartbeat
+    raise e
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/worker.py", line 1205, in heartbeat
+    response = await retry_operation(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/utils_comm.py", line 383, in retry_operation
+    return await retry(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/utils_comm.py", line 368, in retry
+    return await coro()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/core.py", line 1151, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/core.py", line 1372, in connect
+    return await connect_attempt
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/core.py", line 1308, in _connect
+    comm = await connect(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/comm/core.py", line 333, in connect
+    raise OSError(
+OSError: Timed out during handshake while connecting to tcp://127.0.0.1:39759 after 30 s
+/usr/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 24 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

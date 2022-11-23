@@ -1,10 +1,35 @@
-2022-11-23 12:20:02,961 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-qm7cuqaq', purging
-2022-11-23 12:20:02,962 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-baqa3qvj', purging
-2022-11-23 12:20:02,962 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-bibiaruh', purging
-2022-11-23 12:20:02,962 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-usqhhmd2', purging
-2022-11-23 12:20:02,962 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-67qt_sud', purging
-2022-11-23 12:20:02,962 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-zq7yw8is', purging
-2022-11-23 12:20:02,963 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-0niz2vox', purging
-2022-11-23 12:20:02,963 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-cowvd8rp', purging
-/usr/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 96 leaked semaphore objects to clean up at shutdown
-  warnings.warn('resource_tracker: There appear to be %d '
+Distributing data time: 4.779794931411743
+submit_one_func 0.05733537673950195
+submit_one_func 0.0008273124694824219
+submit_one_func 0.0007662773132324219
+submit_one_func 0.0008087158203125
+submit_one_func 0.001071929931640625
+submit_one_func 0.0009024143218994141
+submit_one_func 0.0009477138519287109
+submit_one_func 0.0009624958038330078
+submit_one_func 0.0010063648223876953
+submit_one_func 0.0010533332824707031
+submit_one_func 0.0010294914245605469
+submit_one_func 0.001056671142578125
+submit_one_func 0.001092672348022461
+submit_one_func 0.0011034011840820312
+submit_one_func 0.0011303424835205078
+submit_one_func 0.0011684894561767578
+Execution time: 6.853407621383667
+Get table content time: 0.1996462345123291
+Get table content time: 5.253282308578491
+Get table content time: 2.604417324066162
+Get table content time: 6.433375358581543
+Get table content time: 4.939314365386963
+Get table content time: 4.543220520019531
+Get table content time: 3.883967161178589
+Get table content time: 2.4383223056793213
+Get table content time: 5.82123327255249
+Get table content time: 1.733156442642212
+Get table content time: 5.68086576461792
+Get table content time: 5.7096686363220215
+Get table content time: 6.11866569519043
+Get table content time: 4.06506085395813
+Get table content time: 4.167020559310913
+Get table content time: 6.061370372772217
+Get table content time: 3.183866500854492

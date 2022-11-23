@@ -7,7 +7,7 @@ declare FILENAME='weather_10M.csv'
 declare FORMULA=formula_in_all_types.csv
 declare ROWS=10000000
 
-n=0
+n=6
 sed 1d $FORMULA | while IFS="," read -r FORMULA_STR
 do
   echo $FORMULA_STR
@@ -21,7 +21,7 @@ do
         FILE_DIR="results/TEST-CORES/${n}/${EXECUTOR}/${CORES}CORES/RUN${RUN}"
         mkdir -p $FILE_DIR
         rm -f $FILE_DIR/*
-        if [ $n == 9 ] || [ $n == 10 ]
+        if [ $n == 7 ] || [ $n == 8 ]
         then
           timeout 5m python3 test_driver.py \
               --filename "$FILENAME" \

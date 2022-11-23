@@ -1,10 +1,10 @@
-Traceback (most recent call last):
-  File "/home/ubuntu/db/forms/forms/core/forms.py", line 36, in compute_formula
-    root.validate(forms_config)
-  File "/home/ubuntu/db/forms/forms/planner/plannode.py", line 129, in validate
-    raise FunctionNotSupportedException(
-forms.utils.exceptions.FunctionNotSupportedException: Function Function.IRR does not support SUMIF optimization
-Traceback (most recent call last):
-  File "/home/ubuntu/db/forms/benchmark/test_driver.py", line 69, in <module>
-    "distributing_data_time_in_ms": metrics["distributing_data_time"] * 1000,
-KeyError: 'distributing_data_time'
+2022-11-23 15:47:12,254 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-7091qbdw', purging
+2022-11-23 15:47:12,254 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-j75ihb9c', purging
+2022-11-23 15:47:12,255 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-4akvhti7', purging
+2022-11-23 15:47:12,255 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-1rbuio4r', purging
+2022-11-23 15:47:12,255 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-d7_r_p4_', purging
+2022-11-23 15:47:12,255 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-tptysqwn', purging
+2022-11-23 15:47:12,256 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-5qdo0nxs', purging
+2022-11-23 15:47:12,256 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-pkkczy2o', purging
+/usr/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 96 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

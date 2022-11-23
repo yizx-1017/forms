@@ -1,10 +1,35 @@
-2022-11-23 11:50:02,206 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-bqbnexho', purging
-2022-11-23 11:50:02,206 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-o1810awt', purging
-2022-11-23 11:50:02,206 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-qdyac1h3', purging
-2022-11-23 11:50:02,206 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-nhohv8qk', purging
-2022-11-23 11:50:02,207 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-hxxewhjs', purging
-2022-11-23 11:50:02,207 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-dnpka8ni', purging
-2022-11-23 11:50:02,207 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-htjbwz7e', purging
-2022-11-23 11:50:02,207 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-v9u4x9qk', purging
-/usr/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 96 leaked semaphore objects to clean up at shutdown
-  warnings.warn('resource_tracker: There appear to be %d '
+Distributing data time: 4.787623882293701
+submit_one_func 0.059052467346191406
+submit_one_func 0.0008771419525146484
+submit_one_func 0.0007610321044921875
+submit_one_func 0.0007798671722412109
+submit_one_func 0.0008213520050048828
+submit_one_func 0.0008702278137207031
+submit_one_func 0.0009248256683349609
+submit_one_func 0.00093841552734375
+submit_one_func 0.0009944438934326172
+submit_one_func 0.0010142326354980469
+submit_one_func 0.0010538101196289062
+submit_one_func 0.0010530948638916016
+submit_one_func 0.0012099742889404297
+submit_one_func 0.0015079975128173828
+submit_one_func 0.0011866092681884766
+submit_one_func 0.0011439323425292969
+Execution time: 6.911109447479248
+Get table content time: 0.19187068939208984
+Get table content time: 2.7005088329315186
+Get table content time: 6.390330076217651
+Get table content time: 2.599260091781616
+Get table content time: 6.048598527908325
+Get table content time: 4.034346342086792
+Get table content time: 4.009656190872192
+Get table content time: 1.6231751441955566
+Get table content time: 2.744302988052368
+Get table content time: 5.413034677505493
+Get table content time: 4.697810649871826
+Get table content time: 6.5060224533081055
+Get table content time: 4.432840824127197
+Get table content time: 5.9398839473724365
+Get table content time: 5.829401731491089
+Get table content time: 5.69289231300354
+Get table content time: 6.473156452178955

@@ -1,2 +1,5 @@
-/usr/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 6 leaked semaphore objects to clean up at shutdown
-  warnings.warn('resource_tracker: There appear to be %d '
+Distributing data time: 4.624512434005737
+submit_one_func 0.05535268783569336
+Execution time: 4.367250919342041
+Get table content time: 0.16806411743164062
+Get table content time: 3.427359104156494

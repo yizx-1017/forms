@@ -1,10 +1,35 @@
-Traceback (most recent call last):
-  File "/home/ubuntu/db/forms/forms/core/forms.py", line 36, in compute_formula
-    root.validate(forms_config)
-  File "/home/ubuntu/db/forms/forms/planner/plannode.py", line 129, in validate
-    raise FunctionNotSupportedException(
-forms.utils.exceptions.FunctionNotSupportedException: Function Function.IRR does not support SUMIF optimization
-Traceback (most recent call last):
-  File "/home/ubuntu/db/forms/benchmark/test_driver.py", line 69, in <module>
-    "distributing_data_time_in_ms": metrics["distributing_data_time"] * 1000,
-KeyError: 'distributing_data_time'
+Distributing data time: 4.797824382781982
+submit_one_func 0.056900978088378906
+submit_one_func 0.0005736351013183594
+submit_one_func 0.0004951953887939453
+submit_one_func 0.0004868507385253906
+submit_one_func 0.00047278404235839844
+submit_one_func 0.00047850608825683594
+submit_one_func 0.0004546642303466797
+submit_one_func 0.0004999637603759766
+submit_one_func 0.00046515464782714844
+submit_one_func 0.0004553794860839844
+submit_one_func 0.00046563148498535156
+submit_one_func 0.0004642009735107422
+submit_one_func 0.0004687309265136719
+submit_one_func 0.0004646778106689453
+submit_one_func 0.0004849433898925781
+submit_one_func 0.0004622936248779297
+Execution time: 124.62178349494934
+Get table content time: 0.19734477996826172
+Get table content time: 0.5339698791503906
+Get table content time: 0.5458898544311523
+Get table content time: 0.5592732429504395
+Get table content time: 0.5951070785522461
+Get table content time: 0.5214965343475342
+Get table content time: 0.454805850982666
+Get table content time: 0.5277323722839355
+Get table content time: 0.5986394882202148
+Get table content time: 38.9095196723938
+Get table content time: 0.5212769508361816
+Get table content time: 0.6203703880310059
+Get table content time: 0.5783579349517822
+Get table content time: 0.589252233505249
+Get table content time: 0.5106837749481201
+Get table content time: 0.41979336738586426
+Get table content time: 0.5228207111358643

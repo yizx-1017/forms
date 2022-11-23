@@ -1,10 +1,67 @@
-Traceback (most recent call last):
-  File "/home/ubuntu/db/forms/forms/core/forms.py", line 36, in compute_formula
-    root.validate(forms_config)
-  File "/home/ubuntu/db/forms/forms/planner/plannode.py", line 129, in validate
-    raise FunctionNotSupportedException(
-forms.utils.exceptions.FunctionNotSupportedException: Function Function.IRR does not support SUMIF optimization
-Traceback (most recent call last):
-  File "/home/ubuntu/db/forms/benchmark/test_driver.py", line 69, in <module>
-    "distributing_data_time_in_ms": metrics["distributing_data_time"] * 1000,
-KeyError: 'distributing_data_time'
+Distributing data time: 5.073160409927368
+submit_one_func 0.08116459846496582
+submit_one_func 0.0005998611450195312
+submit_one_func 0.00046253204345703125
+submit_one_func 0.00044989585876464844
+submit_one_func 0.00045418739318847656
+submit_one_func 0.0005121231079101562
+submit_one_func 0.0004611015319824219
+submit_one_func 0.0004458427429199219
+submit_one_func 0.00045561790466308594
+submit_one_func 0.0004439353942871094
+submit_one_func 0.0004391670227050781
+submit_one_func 0.0004401206970214844
+submit_one_func 0.00044608116149902344
+submit_one_func 0.0004420280456542969
+submit_one_func 0.00048613548278808594
+submit_one_func 0.0004360675811767578
+submit_one_func 0.00042891502380371094
+submit_one_func 0.0004405975341796875
+submit_one_func 0.00043082237243652344
+submit_one_func 0.0004189014434814453
+submit_one_func 0.0004208087921142578
+submit_one_func 0.000423431396484375
+submit_one_func 0.0004229545593261719
+submit_one_func 0.0004303455352783203
+submit_one_func 0.00041794776916503906
+submit_one_func 0.00041961669921875
+submit_one_func 0.00043511390686035156
+submit_one_func 0.00044083595275878906
+submit_one_func 0.00081634521484375
+submit_one_func 0.0004887580871582031
+submit_one_func 0.0004265308380126953
+submit_one_func 0.00043892860412597656
+Execution time: 67.81801533699036
+Get table content time: 0.26033902168273926
+Get table content time: 0.5495047569274902
+Get table content time: 0.45208287239074707
+Get table content time: 0.4926168918609619
+Get table content time: 0.4536256790161133
+Get table content time: 0.5227844715118408
+Get table content time: 0.42889928817749023
+Get table content time: 0.5353653430938721
+Get table content time: 0.4642643928527832
+Get table content time: 1.183152675628662
+Get table content time: 0.3870856761932373
+Get table content time: 0.5216400623321533
+Get table content time: 0.7419800758361816
+Get table content time: 0.4248194694519043
+Get table content time: 0.5399398803710938
+Get table content time: 0.3449666500091553
+Get table content time: 0.4825000762939453
+Get table content time: 0.4750056266784668
+Get table content time: 0.45876526832580566
+Get table content time: 0.5537137985229492
+Get table content time: 0.5108702182769775
+Get table content time: 0.45006823539733887
+Get table content time: 1.2438240051269531
+Get table content time: 0.5065340995788574
+Get table content time: 0.43262362480163574
+Get table content time: 0.5416052341461182
+Get table content time: 0.5075361728668213
+Get table content time: 0.3401644229888916
+Get table content time: 0.4002673625946045
+Get table content time: 0.4172072410583496
+Get table content time: 0.6928789615631104
+Get table content time: 0.5737287998199463
+Get table content time: 0.46901965141296387

@@ -1,10 +1,368 @@
+2022-11-23 14:06:31,091 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-8jwcv28k', purging
+2022-11-23 14:06:31,092 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-t8o_p4b0', purging
+2022-11-23 14:06:31,092 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-q21rspon', purging
+2022-11-23 14:06:31,092 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-yf80k8gd', purging
+2022-11-23 14:06:31,092 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-d9q5fxnw', purging
+2022-11-23 14:06:31,092 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-4okbesfv', purging
+2022-11-23 14:06:31,092 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-kuex74_j', purging
+2022-11-23 14:07:38,746 - distributed.worker - ERROR - Timed out during handshake while connecting to tcp://127.0.0.1:44437 after 30 s
 Traceback (most recent call last):
-  File "/home/ubuntu/db/forms/forms/core/forms.py", line 36, in compute_formula
-    root.validate(forms_config)
-  File "/home/ubuntu/db/forms/forms/planner/plannode.py", line 129, in validate
-    raise FunctionNotSupportedException(
-forms.utils.exceptions.FunctionNotSupportedException: Function Function.IRR does not support SUMIF optimization
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 216, in read
+    async def read(self, deserializers=None):
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
 Traceback (most recent call last):
-  File "/home/ubuntu/db/forms/benchmark/test_driver.py", line 69, in <module>
-    "distributing_data_time_in_ms": metrics["distributing_data_time"] * 1000,
-KeyError: 'distributing_data_time'
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 418, in wait_for
+    return fut.result()
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/comm/core.py", line 328, in connect
+    handshake = await asyncio.wait_for(comm.read(), time_left())
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 420, in wait_for
+    raise exceptions.TimeoutError() from exc
+asyncio.exceptions.TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/worker.py", line 1205, in heartbeat
+    response = await retry_operation(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/utils_comm.py", line 383, in retry_operation
+    return await retry(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/utils_comm.py", line 368, in retry
+    return await coro()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/core.py", line 1151, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/core.py", line 1372, in connect
+    return await connect_attempt
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/core.py", line 1308, in _connect
+    comm = await connect(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/comm/core.py", line 333, in connect
+    raise OSError(
+OSError: Timed out during handshake while connecting to tcp://127.0.0.1:44437 after 30 s
+2022-11-23 14:07:45,966 - tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x7f2cfe14b520>>, <Task finished name='Task-167' coro=<Worker.heartbeat() done, defined at /home/ubuntu/.local/lib/python3.10/site-packages/distributed/worker.py:1197> exception=OSError('Timed out during handshake while connecting to tcp://127.0.0.1:44437 after 30 s')>)
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 216, in read
+    async def read(self, deserializers=None):
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 418, in wait_for
+    return fut.result()
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/comm/core.py", line 328, in connect
+    handshake = await asyncio.wait_for(comm.read(), time_left())
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 420, in wait_for
+    raise exceptions.TimeoutError() from exc
+asyncio.exceptions.TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/worker.py", line 1251, in heartbeat
+    raise e
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/worker.py", line 1205, in heartbeat
+    response = await retry_operation(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/utils_comm.py", line 383, in retry_operation
+    return await retry(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/utils_comm.py", line 368, in retry
+    return await coro()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/core.py", line 1151, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/core.py", line 1372, in connect
+    return await connect_attempt
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/core.py", line 1308, in _connect
+    comm = await connect(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/comm/core.py", line 333, in connect
+    raise OSError(
+OSError: Timed out during handshake while connecting to tcp://127.0.0.1:44437 after 30 s
+2022-11-23 14:07:46,591 - distributed.worker - WARNING - Heartbeat to scheduler failed
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 317, in write
+    raise StreamClosedError()
+tornado.iostream.StreamClosedError: Stream is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/worker.py", line 1205, in heartbeat
+    response = await retry_operation(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/utils_comm.py", line 383, in retry_operation
+    return await retry(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/utils_comm.py", line 368, in retry
+    return await coro()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/core.py", line 1154, in send_recv_from_rpc
+    return await send_recv(comm=comm, op=key, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/core.py", line 917, in send_recv
+    await comm.write(msg, serializers=serializers, on_error="raise")
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 328, in write
+    convert_stream_closed_error(self, e)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 144, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) ConnectionPool.heartbeat_worker local=tcp://127.0.0.1:40208 remote=tcp://127.0.0.1:44437>: Stream is closed
+Get table content time: 0.48987412452697754
+2022-11-23 14:08:03,327 - distributed.nanny - ERROR - Worker process died unexpectedly
+Get table content time: 0.524909257888794
+2022-11-23 14:08:03,610 - distributed.worker - WARNING - Compute Failed
+Key:       execute_one_subtree-4dded0381413338b11a982e4c12b5e1c
+Function:  execute_one_subtree
+args:      (<forms.executor.executionnode.FunctionExecutionNode object at 0x7fcc5c558850>)
+kwargs:    {}
+Exception: "CancelledError('DataFrame-fac99ee92d3f20e20d785f8bd5fad47d')"
+
+2022-11-23 14:08:56,166 - distributed.worker - ERROR - Timed out during handshake while connecting to tcp://127.0.0.1:44437 after 30 s
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 266, in write
+    async def write(self, msg, serializers=None, on_error="message"):
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 418, in wait_for
+    return fut.result()
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/comm/core.py", line 329, in connect
+    await asyncio.wait_for(comm.write(local_info), time_left())
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 420, in wait_for
+    raise exceptions.TimeoutError() from exc
+asyncio.exceptions.TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/worker.py", line 1205, in heartbeat
+    response = await retry_operation(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/utils_comm.py", line 383, in retry_operation
+    return await retry(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/utils_comm.py", line 368, in retry
+    return await coro()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/core.py", line 1151, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/core.py", line 1372, in connect
+    return await connect_attempt
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/core.py", line 1308, in _connect
+    comm = await connect(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/comm/core.py", line 333, in connect
+    raise OSError(
+OSError: Timed out during handshake while connecting to tcp://127.0.0.1:44437 after 30 s
+2022-11-23 14:08:57,722 - tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x7fcc161bb520>>, <Task finished name='Task-1094' coro=<Worker.heartbeat() done, defined at /home/ubuntu/.local/lib/python3.10/site-packages/distributed/worker.py:1197> exception=OSError('Timed out during handshake while connecting to tcp://127.0.0.1:44437 after 30 s')>)
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 266, in write
+    async def write(self, msg, serializers=None, on_error="message"):
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 418, in wait_for
+    return fut.result()
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/comm/core.py", line 329, in connect
+    await asyncio.wait_for(comm.write(local_info), time_left())
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 420, in wait_for
+    raise exceptions.TimeoutError() from exc
+asyncio.exceptions.TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/worker.py", line 1251, in heartbeat
+    raise e
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/worker.py", line 1205, in heartbeat
+    response = await retry_operation(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/utils_comm.py", line 383, in retry_operation
+    return await retry(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/utils_comm.py", line 368, in retry
+    return await coro()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/core.py", line 1151, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/core.py", line 1372, in connect
+    return await connect_attempt
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/core.py", line 1308, in _connect
+    comm = await connect(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/comm/core.py", line 333, in connect
+    raise OSError(
+OSError: Timed out during handshake while connecting to tcp://127.0.0.1:44437 after 30 s
+2022-11-23 14:09:20,782 - distributed.worker - ERROR - Timed out during handshake while connecting to tcp://127.0.0.1:44437 after 30 s
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 266, in write
+    async def write(self, msg, serializers=None, on_error="message"):
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 418, in wait_for
+    return fut.result()
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/comm/core.py", line 329, in connect
+    await asyncio.wait_for(comm.write(local_info), time_left())
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 420, in wait_for
+    raise exceptions.TimeoutError() from exc
+asyncio.exceptions.TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/worker.py", line 1205, in heartbeat
+    response = await retry_operation(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/utils_comm.py", line 383, in retry_operation
+    return await retry(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/utils_comm.py", line 368, in retry
+    return await coro()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/core.py", line 1151, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/core.py", line 1372, in connect
+    return await connect_attempt
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/core.py", line 1308, in _connect
+    comm = await connect(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/comm/core.py", line 333, in connect
+    raise OSError(
+OSError: Timed out during handshake while connecting to tcp://127.0.0.1:44437 after 30 s
+2022-11-23 14:09:24,282 - tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x7f7f9db63520>>, <Task finished name='Task-1201' coro=<Worker.heartbeat() done, defined at /home/ubuntu/.local/lib/python3.10/site-packages/distributed/worker.py:1197> exception=OSError('Timed out during handshake while connecting to tcp://127.0.0.1:44437 after 30 s')>)
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 266, in write
+    async def write(self, msg, serializers=None, on_error="message"):
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 418, in wait_for
+    return fut.result()
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/comm/core.py", line 329, in connect
+    await asyncio.wait_for(comm.write(local_info), time_left())
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 420, in wait_for
+    raise exceptions.TimeoutError() from exc
+asyncio.exceptions.TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/worker.py", line 1251, in heartbeat
+    raise e
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/worker.py", line 1205, in heartbeat
+    response = await retry_operation(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/utils_comm.py", line 383, in retry_operation
+    return await retry(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/utils_comm.py", line 368, in retry
+    return await coro()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/core.py", line 1151, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/core.py", line 1372, in connect
+    return await connect_attempt
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/core.py", line 1308, in _connect
+    comm = await connect(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/comm/core.py", line 333, in connect
+    raise OSError(
+OSError: Timed out during handshake while connecting to tcp://127.0.0.1:44437 after 30 s
+Distributing data time: 4.778166770935059
+submit_one_func 0.05691099166870117
+submit_one_func 0.0006432533264160156
+submit_one_func 0.0004918575286865234
+submit_one_func 0.00048470497131347656
+submit_one_func 0.0004773139953613281
+submit_one_func 0.00046753883361816406
+submit_one_func 0.0004723072052001953
+submit_one_func 0.0004622936248779297
+submit_one_func 0.0004553794860839844
+submit_one_func 0.0004630088806152344
+submit_one_func 0.0004551410675048828
+submit_one_func 0.00048279762268066406
+submit_one_func 0.00048542022705078125
+submit_one_func 0.0004563331604003906
+submit_one_func 0.00045800209045410156
+submit_one_func 0.0004603862762451172
+Execution time: 186.0341191291809
+Traceback (most recent call last):
+  File "/home/ubuntu/db/forms/benchmark/test_driver.py", line 51, in <module>
+    result = fs.compute_formula(df, formula_str)
+  File "/home/ubuntu/db/forms/forms/core/forms.py", line 44, in compute_formula
+    res = plan_executor.df_execute_formula_plan(df, root)
+  File "/home/ubuntu/db/forms/forms/executor/dfexecutor/planexecutor.py", line 81, in df_execute_formula_plan
+    return res_table.get_table_content()
+  File "/home/ubuntu/db/forms/forms/executor/table.py", line 58, in get_table_content
+    self.df = self.remote_df.get_df_content()
+  File "/home/ubuntu/db/forms/forms/executor/dfexecutor/remotedf.py", line 80, in get_df_content
+    [
+  File "/home/ubuntu/db/forms/forms/executor/dfexecutor/remotedf.py", line 82, in <listcomp>
+    [one_partition.remote_obj.get_computed_result() for one_partition in one_row],
+  File "/home/ubuntu/db/forms/forms/executor/dfexecutor/remotedf.py", line 82, in <listcomp>
+    [one_partition.remote_obj.get_computed_result() for one_partition in one_row],
+  File "/home/ubuntu/db/forms/forms/runtime/remoteobject.py", line 33, in get_computed_result
+    return self.object_ref.result()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/client.py", line 277, in result
+    raise exc.with_traceback(tb)
+  File "/home/ubuntu/db/forms/forms/executor/dfexecutor/planexecutor.py", line 45, in execute_one_subtree
+    res_table = function_executor(physical_subtree)
+  File "/home/ubuntu/db/forms/forms/executor/dfexecutor/basicfuncexecutor.py", line 307, in irr_df_executor
+    df = ref_node.table.get_table_content()
+  File "/home/ubuntu/db/forms/forms/executor/table.py", line 58, in get_table_content
+    self.df = self.remote_df.get_df_content()
+  File "/home/ubuntu/db/forms/forms/executor/dfexecutor/remotedf.py", line 80, in get_df_content
+    [
+  File "/home/ubuntu/db/forms/forms/executor/dfexecutor/remotedf.py", line 82, in <listcomp>
+    [one_partition.remote_obj.get_computed_result() for one_partition in one_row],
+  File "/home/ubuntu/db/forms/forms/executor/dfexecutor/remotedf.py", line 82, in <listcomp>
+    [one_partition.remote_obj.get_computed_result() for one_partition in one_row],
+  File "/home/ubuntu/db/forms/forms/runtime/remoteobject.py", line 33, in get_computed_result
+    return self.object_ref.result()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/distributed/client.py", line 279, in result
+    raise result
+concurrent.futures._base.CancelledError: DataFrame-fac99ee92d3f20e20d785f8bd5fad47d
+Get table content time: 0.3466358184814453
+Get table content time: 89.34329199790955
+Get table content time: 0.4625866413116455
+Get table content time: 0.45287156105041504
+Get table content time: 0.48421168327331543
+Get table content time: 93.66333174705505
+Get table content time: 0.3919379711151123
+Get table content time: 12.257889747619629
+Get table content time: 0.5198497772216797
+Get table content time: 0.5680153369903564
+Get table content time: 19.17473840713501
+Get table content time: 0.508612871170044
+Get table content time: 78.91899681091309
+Get table content time: 88.76840090751648
+Get table content time: 16.284795999526978

@@ -1,6 +1,19 @@
-2022-11-23 12:15:02,768 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-sn50u8dm', purging
-2022-11-23 12:15:02,769 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-x_f_tu64', purging
-2022-11-23 12:15:02,769 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-gqoka12a', purging
-2022-11-23 12:15:02,769 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-3o9_hxrb', purging
-/usr/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 48 leaked semaphore objects to clean up at shutdown
-  warnings.warn('resource_tracker: There appear to be %d '
+Distributing data time: 4.695039749145508
+submit_one_func 0.06861734390258789
+submit_one_func 0.0009582042694091797
+submit_one_func 0.000885009765625
+submit_one_func 0.0014688968658447266
+submit_one_func 0.001081228256225586
+submit_one_func 0.001081705093383789
+submit_one_func 0.001157999038696289
+submit_one_func 0.0011854171752929688
+Execution time: 5.52823543548584
+Get table content time: 0.17129063606262207
+Get table content time: 3.9504592418670654
+Get table content time: 3.9700233936309814
+Get table content time: 1.6876554489135742
+Get table content time: 4.635935544967651
+Get table content time: 3.2903757095336914
+Get table content time: 4.646955966949463
+Get table content time: 4.9312543869018555
+Get table content time: 5.094398736953735

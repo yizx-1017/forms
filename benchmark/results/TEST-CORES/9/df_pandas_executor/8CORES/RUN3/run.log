@@ -1,10 +1,23 @@
-Traceback (most recent call last):
-  File "/home/ubuntu/db/forms/forms/core/forms.py", line 36, in compute_formula
-    root.validate(forms_config)
-  File "/home/ubuntu/db/forms/forms/planner/plannode.py", line 129, in validate
-    raise FunctionNotSupportedException(
-forms.utils.exceptions.FunctionNotSupportedException: Function Function.IRR does not support SUMIF optimization
-Traceback (most recent call last):
-  File "/home/ubuntu/db/forms/benchmark/test_driver.py", line 69, in <module>
-    "distributing_data_time_in_ms": metrics["distributing_data_time"] * 1000,
-KeyError: 'distributing_data_time'
+2022-11-23 14:49:39,352 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-nlbjtb4s', purging
+2022-11-23 14:49:39,352 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-l90kqosw', purging
+2022-11-23 14:49:39,352 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-4ooogrmg', purging
+2022-11-23 14:49:39,352 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-worker-space/worker-at8nqq2r', purging
+Distributing data time: 4.674361228942871
+submit_one_func 0.06759929656982422
+submit_one_func 0.0007135868072509766
+submit_one_func 0.0017054080963134766
+submit_one_func 0.0005810260772705078
+submit_one_func 0.0005314350128173828
+submit_one_func 0.0005354881286621094
+submit_one_func 0.0005235671997070312
+submit_one_func 0.0005130767822265625
+Execution time: 201.12511348724365
+Get table content time: 0.17264509201049805
+Get table content time: 18.625978469848633
+Get table content time: 36.116097927093506
+Get table content time: 0.7397029399871826
+Get table content time: 35.491583585739136
+Get table content time: 0.7968246936798096
+Get table content time: 37.13048219680786
+Get table content time: 0.677396297454834
+Get table content time: 0.7222089767456055

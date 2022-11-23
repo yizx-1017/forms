@@ -1,35 +1,35 @@
-Distributing data time: 4.809523344039917
-submit_one_func 0.05749654769897461
-submit_one_func 0.0005843639373779297
+Distributing data time: 4.8199303150177
+submit_one_func 0.05844402313232422
+submit_one_func 0.0006046295166015625
+submit_one_func 0.0004894733428955078
+submit_one_func 0.00048089027404785156
+submit_one_func 0.0004787445068359375
+submit_one_func 0.0004706382751464844
+submit_one_func 0.00048041343688964844
+submit_one_func 0.00046634674072265625
+submit_one_func 0.00047707557678222656
 submit_one_func 0.0004849433898925781
-submit_one_func 0.000499725341796875
-submit_one_func 0.00047326087951660156
-submit_one_func 0.00046443939208984375
-submit_one_func 0.00047969818115234375
-submit_one_func 0.0004582405090332031
-submit_one_func 0.0004937648773193359
-submit_one_func 0.0004718303680419922
-submit_one_func 0.00046324729919433594
-submit_one_func 0.0004832744598388672
-submit_one_func 0.00048422813415527344
-submit_one_func 0.00046896934509277344
-submit_one_func 0.00047206878662109375
-submit_one_func 0.00048232078552246094
-Execution time: 69.94558334350586
-Get table content time: 0.18379807472229004
-Get table content time: 0.4593167304992676
-Get table content time: 0.6219983100891113
-Get table content time: 0.5399878025054932
-Get table content time: 0.7543308734893799
-Get table content time: 0.4719247817993164
-Get table content time: 0.4756770133972168
-Get table content time: 0.7913215160369873
-Get table content time: 0.8835244178771973
-Get table content time: 0.4994344711303711
-Get table content time: 0.5582592487335205
-Get table content time: 0.5047409534454346
-Get table content time: 0.4731462001800537
-Get table content time: 0.5816690921783447
-Get table content time: 0.5744409561157227
-Get table content time: 0.41243600845336914
-Get table content time: 0.556981086730957
+submit_one_func 0.00048542022705078125
+submit_one_func 0.0004849433898925781
+submit_one_func 0.00048828125
+submit_one_func 0.0004892349243164062
+submit_one_func 0.0005002021789550781
+submit_one_func 0.00048041343688964844
+Execution time: 0.8406782150268555
+Get table content time: 0.18709492683410645
+Get table content time: 0.5153348445892334
+Get table content time: 0.6295197010040283
+Get table content time: 0.5608298778533936
+Get table content time: 0.5170347690582275
+Get table content time: 0.46587038040161133
+Get table content time: 0.573814868927002
+Get table content time: 0.6456875801086426
+Get table content time: 0.45914125442504883
+Get table content time: 0.5947761535644531
+Get table content time: 0.6125831604003906
+Get table content time: 0.5738303661346436
+Get table content time: 0.5426025390625
+Get table content time: 0.4973459243774414
+Get table content time: 0.6246592998504639
+Get table content time: 0.5911450386047363
+Get table content time: 0.4059925079345703
